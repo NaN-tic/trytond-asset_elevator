@@ -1,0 +1,1035 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:asset.building,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.building,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.building,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.building,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.building,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.building,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.building,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.door.type,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.door.type,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.door.type,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.door.type,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.door.type,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.door.type,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.door.type,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.elevator,active:"
+msgid "Active"
+msgstr "Activo"
+
+msgctxt "field:asset.elevator,administrator:"
+msgid "Administrator"
+msgstr "Administrador"
+
+msgctxt "field:asset.elevator,asset:"
+msgid "Asset"
+msgstr "Activo"
+
+msgctxt "field:asset.elevator,bidirectional_brand:"
+msgid "Bidirectional brand"
+msgstr "Marca bidireccional"
+
+msgctxt "field:asset.elevator,bidirectional_product:"
+msgid "Bidirectional product"
+msgstr "Producto bidireccional"
+
+msgctxt "field:asset.elevator,brake_brand:"
+msgid "Brake Brand"
+msgstr "Marca freno"
+
+msgctxt "field:asset.elevator,brake_voltage:"
+msgid "Brake Voltage"
+msgstr "Tensión frenos"
+
+msgctxt "field:asset.elevator,building:"
+msgid "Building"
+msgstr "Edificio"
+
+msgctxt "field:asset.elevator,buttons_brand:"
+msgid "Buttons brand"
+msgstr "Marca pulsadores"
+
+msgctxt "field:asset.elevator,buttons_product:"
+msgid "Buttons product"
+msgstr "Producto pulsadores"
+
+msgctxt "field:asset.elevator,cabin_chassis_brand:"
+msgid "Cabin chasis brand"
+msgstr "Marca chasis cabina"
+
+msgctxt "field:asset.elevator,cabin_chassis_product:"
+msgid "Cabin chasis product"
+msgstr "Producto chasis cabina"
+
+msgctxt "field:asset.elevator,cabin_guides:"
+msgid "Cabin Guides"
+msgstr "Guías cabina"
+
+msgctxt "field:asset.elevator,cabin_height:"
+msgid "Height"
+msgstr "Altura"
+
+msgctxt "field:asset.elevator,cabin_width:"
+msgid "Width"
+msgstr "Ancho"
+
+msgctxt "field:asset.elevator,cilinder_brand:"
+msgid "Cilinder Brand"
+msgstr "Marca cilindro"
+
+msgctxt "field:asset.elevator,code:"
+msgid "Code"
+msgstr "Código"
+
+msgctxt "field:asset.elevator,conductors_length:"
+msgid "Conductors Length"
+msgstr "Longitud conductores"
+
+msgctxt "field:asset.elevator,contactor_types:"
+msgid "Contactor Types"
+msgstr "Tipo de contractores"
+
+msgctxt "field:asset.elevator,contactor_voltage:"
+msgid "Contactor Voltage"
+msgstr "Tensión contractores"
+
+msgctxt "field:asset.elevator,counterweight_guides:"
+msgid "Counterweight Guides"
+msgstr "Guías contrapeso"
+
+msgctxt "field:asset.elevator,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.elevator,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.elevator,deflection_pulley:"
+msgid "Deflection pulley"
+msgstr "Polea de desviamiento"
+
+msgctxt "field:asset.elevator,displays_brand:"
+msgid "Displays brand"
+msgstr "Marca displays"
+
+msgctxt "field:asset.elevator,displays_product:"
+msgid "Displays product"
+msgstr "Producto displays"
+
+msgctxt "field:asset.elevator,door_motor_brand:"
+msgid "Door Motor Brand"
+msgstr "Marca motor puertas"
+
+msgctxt "field:asset.elevator,door_motor_product:"
+msgid "Door Motor Product"
+msgstr "Producto motor puertas"
+
+msgctxt "field:asset.elevator,doors_brand:"
+msgid "Doors brand"
+msgstr "Marca puertas"
+
+msgctxt "field:asset.elevator,doors_product:"
+msgid "Doors Product"
+msgstr "Producto puertas"
+
+msgctxt "field:asset.elevator,ground_finish:"
+msgid "Ground Finish"
+msgstr "Acabado suelo"
+
+msgctxt "field:asset.elevator,gsm:"
+msgid "GSM"
+msgstr "GSM"
+
+msgctxt "field:asset.elevator,hand:"
+msgid "Hand"
+msgstr "Mano"
+
+msgctxt "field:asset.elevator,hose_diameter:"
+msgid "Hose diameter"
+msgstr "Diametro manguera"
+
+msgctxt "field:asset.elevator,hose_lenght:"
+msgid "Hose lenght"
+msgstr "Longitud manguera"
+
+msgctxt "field:asset.elevator,hose_type:"
+msgid "Hose Type"
+msgstr "Tipo manguera"
+
+msgctxt "field:asset.elevator,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.elevator,input_voltage:"
+msgid "Input Voltage"
+msgstr "Tensión entrada"
+
+msgctxt "field:asset.elevator,landing_door_type:"
+msgid "Landing door type"
+msgstr "Tipo puertas rellano"
+
+msgctxt "field:asset.elevator,lateral_finish:"
+msgid "Lateral Finish"
+msgstr "Acabado lateral"
+
+msgctxt "field:asset.elevator,light_height:"
+msgid "Height"
+msgstr "Altura"
+
+msgctxt "field:asset.elevator,light_width:"
+msgid "Width"
+msgstr "Ancho"
+
+msgctxt "field:asset.elevator,ligths_voltage:"
+msgid "Ligths Voltage"
+msgstr "Tensió lluminosos"
+
+msgctxt "field:asset.elevator,limiter_brand:"
+msgid "Limiter Brand"
+msgstr "Marca limitador"
+
+msgctxt "field:asset.elevator,limiter_diameter:"
+msgid "Limiter Diamater"
+msgstr "Diametro limitador"
+
+msgctxt "field:asset.elevator,limiter_lenght:"
+msgid "Limiter Length"
+msgstr "Longitud limitador"
+
+msgctxt "field:asset.elevator,lleva_voltage:"
+msgid "Lleva Voltage"
+msgstr "Tensión lleva"
+
+msgctxt "field:asset.elevator,locks_brand:"
+msgid "Locks brand"
+msgstr "Marca cerraduras"
+
+msgctxt "field:asset.elevator,machine_brand:"
+msgid "Machine brand"
+msgstr "Marca maquina"
+
+msgctxt "field:asset.elevator,machine_product:"
+msgid "Machine product"
+msgstr "Producto maquina"
+
+msgctxt "field:asset.elevator,maneveur_type:"
+msgid "Maneveur Type"
+msgstr "Tipus maniobra"
+
+msgctxt "field:asset.elevator,manevuer_manufacturer:"
+msgid "Manevuer Manufacturer"
+msgstr "Fabricant maniobra"
+
+msgctxt "field:asset.elevator,material_brand:"
+msgid "Material brand"
+msgstr "Marca material"
+
+msgctxt "field:asset.elevator,notes:"
+msgid "Notes"
+msgstr "Notas"
+
+msgctxt "field:asset.elevator,number_of_conductors:"
+msgid "Number of conductors"
+msgstr "Número de condutores"
+
+msgctxt "field:asset.elevator,parachute_brand:"
+msgid "Parachute brand"
+msgstr "Marca paracaidas"
+
+msgctxt "field:asset.elevator,parachute_counterweight:"
+msgid "Parachute counterweight"
+msgstr "Contrapeso paracaidas"
+
+msgctxt "field:asset.elevator,payload:"
+msgid "Payload"
+msgstr "Carga útil"
+
+msgctxt "field:asset.elevator,persons:"
+msgid "Persons"
+msgstr "Personas"
+
+msgctxt "field:asset.elevator,phone:"
+msgid "Phone"
+msgstr "Teléfono"
+
+msgctxt "field:asset.elevator,power:"
+msgid "Power"
+msgstr "Poténcia"
+
+msgctxt "field:asset.elevator,provenance:"
+msgid "Proveanence"
+msgstr "Origen"
+
+msgctxt "field:asset.elevator,pulley:"
+msgid "Pulley"
+msgstr "Polea"
+
+msgctxt "field:asset.elevator,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.elevator,registry_number:"
+msgid "R.A.E."
+msgstr "R.A.E."
+
+msgctxt "field:asset.elevator,roof_finish:"
+msgid "Roof Finish"
+msgstr "Acabats terra"
+
+msgctxt "field:asset.elevator,rpm_motor:"
+msgid "RPM Motor"
+msgstr "RPM Motor"
+
+msgctxt "field:asset.elevator,situation:"
+msgid "Situation"
+msgstr "Situación"
+
+msgctxt "field:asset.elevator,stops:"
+msgid "Stops"
+msgstr "Paradas"
+
+msgctxt "field:asset.elevator,suspension_type:"
+msgid "Suspension Type"
+msgstr "Tipo de suspensión"
+
+msgctxt "field:asset.elevator,type:"
+msgid "Type"
+msgstr "Tipo"
+
+msgctxt "field:asset.elevator,velocity:"
+msgid "Velocity"
+msgstr "Velocidad"
+
+msgctxt "field:asset.elevator,wire_diameter:"
+msgid "Wire diameter"
+msgstr "Diametro cables"
+
+msgctxt "field:asset.elevator,wire_lenght:"
+msgid "Wire lenght"
+msgstr "Longitud cables"
+
+msgctxt "field:asset.elevator,wire_number:"
+msgid "Wire number"
+msgstr "Número de cables"
+
+msgctxt "field:asset.elevator,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.elevator,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.elevator.type,code:"
+msgid "Code"
+msgstr "Código"
+
+msgctxt "field:asset.elevator.type,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.elevator.type,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.elevator.type,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.elevator.type,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.elevator.type,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.elevator.type,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.elevator.type,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.finish,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.finish,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.finish,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.finish,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.finish,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.finish,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.finish,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.guide,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.guide,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.guide,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.guide,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.guide,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.guide,type:"
+msgid "Type"
+msgstr "Tipo"
+
+msgctxt "field:asset.guide,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.guide,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.hose.type,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.hose.type,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.hose.type,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.hose.type,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.hose.type,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.hose.type,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.hose.type,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.maneveur.type,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.maneveur.type,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.maneveur.type,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.maneveur.type,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.maneveur.type,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.maneveur.type,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.maneveur.type,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.situation,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.situation,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.situation,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.situation,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.situation,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.situation,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.situation,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.suspension.type,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:asset.suspension.type,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:asset.suspension.type,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset.suspension.type,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.suspension.type,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.suspension.type,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.suspension.type,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "help:asset.elevator,brake_voltage:"
+msgid "Brake voltage (in volts)"
+msgstr "Tensión frenos (en voltios)"
+
+msgctxt "help:asset.elevator,contactor_voltage:"
+msgid "Contactor voltage (in volts)"
+msgstr "Tensión contractores (en voltios)"
+
+msgctxt "help:asset.elevator,input_voltage:"
+msgid "Voltage at the entrance of the property (in volts"
+msgstr "Tensión a la entrada del edificio"
+
+msgctxt "help:asset.elevator,ligths_voltage:"
+msgid "Ligths voltage (in volts)"
+msgstr "Tensió lluminosos (en voltios)"
+
+msgctxt "help:asset.elevator,lleva_voltage:"
+msgid "Lleva voltage (in volts)"
+msgstr "Tensión lleva (en voltios)"
+
+msgctxt "help:asset.elevator,power:"
+msgid "Power (in kw)"
+msgstr "Poténcia (en kw)"
+
+msgctxt "help:asset.elevator,pulley:"
+msgid "Milimeters of the pulley diamenter"
+msgstr "Diámetro de la polea (en mm)"
+
+msgctxt "help:asset.elevator,registry_number:"
+msgid "Elevator machine number"
+msgstr "Registro aparato elevador"
+
+msgctxt "model:asset.building,name:"
+msgid "Building"
+msgstr "Edificio"
+
+msgctxt "model:asset.building,name:industry_buliding"
+msgid "Industry"
+msgstr "Industria"
+
+msgctxt "model:asset.building,name:offices_buliding"
+msgid "Offices"
+msgstr "Oficinas"
+
+msgctxt "model:asset.building,name:public_administration_buliding"
+msgid "Public Administration"
+msgstr "Administración pública"
+
+msgctxt "model:asset.building,name:residencial_buliding"
+msgid "Residencial"
+msgstr "Residencial"
+
+msgctxt "model:asset.building,name:school_buliding"
+msgid "School"
+msgstr "Escuelas"
+
+msgctxt "model:asset.building,name:unifamiliar_buliding"
+msgid "Unifamiliar"
+msgstr "Unifamiliar"
+
+msgctxt "model:asset.door.type,name:"
+msgid "Door Type"
+msgstr "Tipo puerta"
+
+msgctxt "model:asset.elevator,name:"
+msgid "Elevator"
+msgstr "Asensor"
+
+msgctxt "model:asset.elevator.type,name:"
+msgid "Elevator Type"
+msgstr "Tipo ascensor"
+
+msgctxt "model:asset.finish,name:"
+msgid "Finish"
+msgstr "Acabado"
+
+msgctxt "model:asset.guide,name:"
+msgid "Guide"
+msgstr "Guía"
+
+msgctxt "model:asset.hose.type,name:"
+msgid "Hose Type"
+msgstr "Tipo manguera"
+
+msgctxt "model:asset.maneveur.type,name:"
+msgid "Maneveur Type"
+msgstr "Tipus maniobra"
+
+msgctxt "model:asset.maneveur.type,name:1v_maneveur"
+msgid "1v"
+msgstr "1v"
+
+msgctxt "model:asset.maneveur.type,name:2v_maneveur"
+msgid "2v"
+msgstr "2v"
+
+msgctxt "model:asset.maneveur.type,name:duplex_maneveur"
+msgid "Duplex"
+msgstr "Duplex"
+
+msgctxt "model:asset.maneveur.type,name:selective_maneveur"
+msgid "Selective Upload-Download"
+msgstr "Selectivo subida-bajada"
+
+msgctxt "model:asset.maneveur.type,name:simplex_maneveur"
+msgid "Simplex"
+msgstr "Simplex"
+
+msgctxt "model:asset.maneveur.type,name:triplex_maneveur"
+msgid "Triplex"
+msgstr "Triplex"
+
+msgctxt "model:asset.maneveur.type,name:wf_maneveur"
+msgid "WF"
+msgstr "WF"
+
+msgctxt "model:asset.situation,name:"
+msgid "Situation"
+msgstr "Situación"
+
+msgctxt "model:asset.suspension.type,name:"
+msgid "Suspension Type"
+msgstr "Tipo de suspensión"
+
+msgctxt "model:asset.suspension.type,name:1_1_suspension"
+msgid "1:1"
+msgstr "1:1"
+
+msgctxt "model:asset.suspension.type,name:2_1_suspension"
+msgid "2:1"
+msgstr "2:1"
+
+msgctxt "model:asset.suspension.type,name:telescopic_suspension"
+msgid "Telescopic"
+msgstr "Telescopico"
+
+msgctxt "model:ir.action,name:act_asset_building"
+msgid "Buildings"
+msgstr "Edificios"
+
+msgctxt "model:ir.action,name:act_asset_door_type"
+msgid "Door Types"
+msgstr "Tipos puerta"
+
+msgctxt "model:ir.action,name:act_asset_elevator"
+msgid "Elevators"
+msgstr "Asensores"
+
+msgctxt "model:ir.action,name:act_asset_elevator_type"
+msgid "Elevator Types"
+msgstr "Tipos ascensor"
+
+msgctxt "model:ir.action,name:act_asset_finish"
+msgid "Finish"
+msgstr "Acabados"
+
+msgctxt "model:ir.action,name:act_asset_guide"
+msgid "Guides"
+msgstr "Guias"
+
+msgctxt "model:ir.action,name:act_asset_hose_type"
+msgid "Hose Type"
+msgstr "Tipo manguera"
+
+msgctxt "model:ir.action,name:act_asset_maneveur_type"
+msgid "Maneveur Type"
+msgstr "Tipus maniobra"
+
+msgctxt "model:ir.action,name:act_asset_situation"
+msgid "Situations"
+msgstr "Situaciones"
+
+msgctxt "model:ir.action,name:act_asset_suspension_type"
+msgid "Suspension Types"
+msgstr "Tipos de suspensión"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_building"
+msgid "Buildings"
+msgstr "Edificios"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_door_type"
+msgid "Door Types"
+msgstr "Tipos puerta"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_elevator"
+msgid "Elevator"
+msgstr "Asensor"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_elevator_from"
+msgid "Elevators"
+msgstr "Asensores"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_elevator_type"
+msgid "Elevator Types"
+msgstr "Tipos ascensor"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_finish"
+msgid "Finish"
+msgstr "Acabados"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_guide"
+msgid "Guides"
+msgstr "Guias"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_hose_type"
+msgid "Hose Type"
+msgstr "Tipo manguera"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_maneveur_type"
+msgid "Maneveur Type"
+msgstr "Tipus maniobra"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_situation"
+msgid "Situations"
+msgstr "Situaciones"
+
+msgctxt "model:ir.ui.menu,name:menu_asset_suspension_type"
+msgid "Suspension Types"
+msgstr "Tipos de suspensión"
+
+msgctxt "selection:asset.elevator,hand:"
+msgid ""
+msgstr ""
+
+msgctxt "selection:asset.elevator,hand:"
+msgid "Left"
+msgstr "Izquierda"
+
+msgctxt "selection:asset.elevator,hand:"
+msgid "Right"
+msgstr "Derecha"
+
+msgctxt "selection:asset.elevator,provenance:"
+msgid ""
+msgstr ""
+
+msgctxt "selection:asset.elevator,provenance:"
+msgid "Another conservative"
+msgstr "Otro conservador"
+
+msgctxt "selection:asset.elevator,provenance:"
+msgid "New Work"
+msgstr "Obra nueva"
+
+msgctxt "selection:asset.elevator,provenance:"
+msgid "Old Work"
+msgstr "Obra antigua"
+
+msgctxt "selection:asset.guide,type:"
+msgid "Cabin"
+msgstr "Cabina"
+
+msgctxt "selection:asset.guide,type:"
+msgid "Counterweight"
+msgstr "Contrapeso"
+
+msgctxt "view:asset.building:"
+msgid "Building"
+msgstr "Edificio"
+
+msgctxt "view:asset.building:"
+msgid "Buildings"
+msgstr "Edificios"
+
+msgctxt "view:asset.door.type:"
+msgid "Door Type"
+msgstr "Tipo puerta"
+
+msgctxt "view:asset.door.type:"
+msgid "Door Types"
+msgstr "Tipos puerta"
+
+msgctxt "view:asset.elevator.type:"
+msgid "Elevator Type"
+msgstr "Tipo ascensor"
+
+msgctxt "view:asset.elevator.type:"
+msgid "Elevator Types"
+msgstr "Tipos ascensor"
+
+msgctxt "view:asset.elevator:"
+msgid "Bidirectional"
+msgstr "Bidireccional"
+
+msgctxt "view:asset.elevator:"
+msgid "Brakes"
+msgstr "Frenos"
+
+msgctxt "view:asset.elevator:"
+msgid "Brand"
+msgstr "Marca"
+
+msgctxt "view:asset.elevator:"
+msgid "Buttons"
+msgstr "Pulsadores"
+
+msgctxt "view:asset.elevator:"
+msgid "Cabin"
+msgstr "Cabina"
+
+msgctxt "view:asset.elevator:"
+msgid "Cabin Chassis"
+msgstr "Chasis cabina"
+
+msgctxt "view:asset.elevator:"
+msgid "Components"
+msgstr "Componentes"
+
+msgctxt "view:asset.elevator:"
+msgid "Conductors"
+msgstr "Conductores"
+
+msgctxt "view:asset.elevator:"
+msgid "Contactors"
+msgstr "Contractores"
+
+msgctxt "view:asset.elevator:"
+msgid "Diameter"
+msgstr "Diametro"
+
+msgctxt "view:asset.elevator:"
+msgid "Displays"
+msgstr "Displays"
+
+msgctxt "view:asset.elevator:"
+msgid "Door Motor"
+msgstr "Motor puertas"
+
+msgctxt "view:asset.elevator:"
+msgid "Doors"
+msgstr "Puertas"
+
+msgctxt "view:asset.elevator:"
+msgid "Elevator"
+msgstr "Asensor"
+
+msgctxt "view:asset.elevator:"
+msgid "Elevators"
+msgstr "Asensores"
+
+msgctxt "view:asset.elevator:"
+msgid "Finish"
+msgstr "Acabado"
+
+msgctxt "view:asset.elevator:"
+msgid "General Info"
+msgstr "Información general"
+
+msgctxt "view:asset.elevator:"
+msgid "Guides"
+msgstr "Guias"
+
+msgctxt "view:asset.elevator:"
+msgid "Height"
+msgstr "Altura"
+
+msgctxt "view:asset.elevator:"
+msgid "Hose"
+msgstr "Manguera"
+
+msgctxt "view:asset.elevator:"
+msgid "Length"
+msgstr "Longitud"
+
+msgctxt "view:asset.elevator:"
+msgid "Lights"
+msgstr "Lluminosos"
+
+msgctxt "view:asset.elevator:"
+msgid "Limiter"
+msgstr "Limitador"
+
+msgctxt "view:asset.elevator:"
+msgid "Machine"
+msgstr "Maquina"
+
+msgctxt "view:asset.elevator:"
+msgid "Maneveur"
+msgstr "Maniobra"
+
+msgctxt "view:asset.elevator:"
+msgid "Manufacturer"
+msgstr "Fabricant"
+
+msgctxt "view:asset.elevator:"
+msgid "Number"
+msgstr "Número"
+
+msgctxt "view:asset.elevator:"
+msgid "Other"
+msgstr "Otro"
+
+msgctxt "view:asset.elevator:"
+msgid "Parachute"
+msgstr "Paracaidas"
+
+msgctxt "view:asset.elevator:"
+msgid "Product"
+msgstr "Productos"
+
+msgctxt "view:asset.elevator:"
+msgid "Pulley"
+msgstr "Polea"
+
+msgctxt "view:asset.elevator:"
+msgid "Type"
+msgstr "Tipo"
+
+msgctxt "view:asset.elevator:"
+msgid "Voltage"
+msgstr "Tensión"
+
+msgctxt "view:asset.elevator:"
+msgid "Width"
+msgstr "Ancho"
+
+msgctxt "view:asset.elevator:"
+msgid "Wires"
+msgstr "Cables"
+
+msgctxt "view:asset.finish:"
+msgid "Finish"
+msgstr "Acabado"
+
+msgctxt "view:asset.guide:"
+msgid "Guide"
+msgstr "Guía"
+
+msgctxt "view:asset.guide:"
+msgid "Guides"
+msgstr "Guias"
+
+msgctxt "view:asset.hose.type:"
+msgid "Hose Type"
+msgstr "Tipo manguera"
+
+msgctxt "view:asset.hose.type:"
+msgid "Hose Types"
+msgstr "Tipos manguera"
+
+msgctxt "view:asset.maneveur.type:"
+msgid "Maneveur Type"
+msgstr "Tipus maniobra"
+
+msgctxt "view:asset.maneveur.type:"
+msgid "Maneveur Types"
+msgstr "Tipus maniobra"
+
+msgctxt "view:asset.situation:"
+msgid "Situation"
+msgstr "Situación"
+
+msgctxt "view:asset.situation:"
+msgid "Situations"
+msgstr "Situaciones"
+
+msgctxt "view:asset.suspension.type:"
+msgid "Suspension Type"
+msgstr "Tipo de suspensión"
+
+msgctxt "view:asset.suspension.type:"
+msgid "Suspension Types"
+msgstr "Tipos de suspensión"

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data skiptest="1">
+
+        <!-- asset.building -->
+        <record model="asset.building" id="unifamiliar_buliding">
+            <field name="name">Unifamiliar</field>
+        </record>
+        <record model="asset.building" id="residencial_buliding">
+            <field name="name">Residencial</field>
+        </record>
+        <record model="asset.building" id="offices_buliding">
+            <field name="name">Offices</field>
+        </record>
+        <record model="asset.building" id="industry_buliding">
+            <field name="name">Industry</field>
+        </record>
+        <record model="asset.building" id="public_administration_buliding">
+            <field name="name">Public Administration</field>
+        </record>
+        <record model="asset.building" id="school_buliding">
+            <field name="name">School</field>
+        </record>
+
+        <!-- asset.elevator.type -->
+        <record model="asset.elevator.type" id="hd_elevator_type">
+            <field name="code">HD</field>
+            <field name="name">Hydraulic for persons or mixed</field>
+        </record>
+        <record model="asset.elevator.type" id="adh_elevator_type">
+            <field name="code">ADH</field>
+            <field name="name">Electric with machine room, for persons or mixed</field>
+        </record>
+        <record model="asset.elevator.type" id="hddl_elevator_type">
+            <field name="code">HDDL</field>
+            <field name="name">Hydraulic machine directive. Unifamiliar withou moat</field>
+        </record>
+        <record model="asset.elevator.type" id="pi_elevator_type">
+            <field name="code">PI</field>
+            <field name="name">Indrustrial plataforms, no persons</field>
+        </record>
+        <record model="asset.elevator.type" id="ksj_elevator_type">
+            <field name="code">KSJ</field>
+            <field name="name">Wihtout machine room, without superior machine,
+                door chassis or bag.
+            </field>
+        </record>
+        <record model="asset.elevator.type" id="ajd_elevator_type">
+            <field name="code">AJD</field>
+            <field name="name">Without room machine, machine in moat without HD</field>
+        </record>
+        <record model="asset.elevator.type" id="adhwf_elevator_type">
+            <field name="code">ADHWW</field>
+            <field name="name">Electric with machine room and WF maneveur</field>
+        </record>
+        <record model="asset.elevator.type" id="adhsnc_elevator_type">
+            <field name="code">ADHSNC</field>
+            <field name="name">Electric with machine room. Gearless Machine</field>
+        </record>
+
+        <!-- asset.maneveur.type -->
+        <record model="asset.maneveur.type" id="simplex_maneveur">
+            <field name="name">Simplex</field>
+        </record>
+        <record model="asset.maneveur.type" id="duplex_maneveur">
+            <field name="name">Duplex</field>
+        </record>
+        <record model="asset.maneveur.type" id="triplex_maneveur">
+            <field name="name">Triplex</field>
+        </record>
+        <record model="asset.maneveur.type" id="1v_maneveur">
+            <field name="name">1v</field>
+        </record>
+        <record model="asset.maneveur.type" id="2v_maneveur">
+            <field name="name">2v</field>
+        </record>
+        <record model="asset.maneveur.type" id="wf_maneveur">
+            <field name="name">WF</field>
+        </record>
+        <record model="asset.maneveur.type" id="selective_maneveur">
+            <field name="name">Selective Upload-Download</field>
+        </record>
+
+        <record model="asset.suspension.type" id="telescopic_suspension">
+            <field name="name">Telescopic</field>
+        </record>
+
+        <record model="asset.suspension.type" id="1_1_suspension">
+            <field name="name">1:1</field>
+        </record>
+
+        <record model="asset.suspension.type" id="2_1_suspension">
+            <field name="name">2:1</field>
+        </record>
+    </data>
+</tryton>

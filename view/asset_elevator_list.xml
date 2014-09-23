@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<tree string="Elevators">
+    <field name="code"/>
+    <field name="rec_name"/>
+    <field name="registry_number"/>
+    <field name="type"/>
+    <field name="administrator"/>
+    <field name="phone"/>
+    <field name="active" tree_invisible="1"/>
+</tree>
