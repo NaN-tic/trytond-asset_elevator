@@ -16,7 +16,7 @@ class ElevatorType(ModelSQL, ModelView):
     'Elevator Type'
     __name__ = 'asset.elevator.type'
     code = fields.Char('Code')
-    name = fields.Char('Name', required=True)
+    name = fields.Char('Name', required=True, translate=True)
 
     def get_rec_name(self, name):
         if self.code:
@@ -112,6 +112,7 @@ class Elevator(ModelSQL, ModelView):
             ], 'Hand')
     light_height = fields.Float('Height', digits=(16, 2))
     light_width = fields.Float('Width', digits=(16, 2))
+    doors_number = fields.Integer('Doors Number')
     doors_brand = fields.Many2One('product.brand', 'Doors brand')
     doors_product = fields.Many2One('product.product', 'Doors Product',
         domain=[
@@ -219,6 +220,10 @@ class Elevator(ModelSQL, ModelView):
     @staticmethod
     def default_hand():
         return ''
+
+    @staticmethod
+    def default_active():
+        return True
 
     def get_rec_name(self, name):
         return self.asset.name

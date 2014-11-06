@@ -106,6 +106,8 @@
                 <label id="product" string="Product"/>
                 <field name="door_motor_product"/>
                 <separator id="doors" string="Doors" colspan="4"/>
+                <label id="number" string="Number"/>
+                <field name="doors_number"/>
                 <label id="brand" string="Brand"/>
                 <field name="doors_brand"/>
                 <label id="product" string="Product"/>
