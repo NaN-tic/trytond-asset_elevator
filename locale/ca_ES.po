@@ -994,7 +994,7 @@ msgstr "Amplada"
 
 msgctxt "view:asset.elevator:"
 msgid "Wires"
-msgstr "Cablejs"
+msgstr "Cables"
 
 msgctxt "view:asset.finish:"
 msgid "Finish"

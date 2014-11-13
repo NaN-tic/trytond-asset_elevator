@@ -393,8 +393,8 @@
             <field name="perm_delete" eval="True"/>
         </record>
         <!-- Menus -->
-        <menuitem action="act_asset_elevator" id="menu_asset_elevator"
-            parent="asset.menu_configuration" sequence="20" name="Elevator"/>
+        <menuitem id="menu_asset_elevator" parent="asset.menu_configuration"
+            sequence="20" name="Elevator"/>
 
         <menuitem action="act_asset_elevator" id="menu_asset_elevator_from"
             parent="asset.menu_asset" sequence="20"/>
