@@ -1,3 +1,4 @@
+* Add unique constraint on asset
 * Fix elevator components page layout
 
 Version 3.4.0 - 2014-11-03

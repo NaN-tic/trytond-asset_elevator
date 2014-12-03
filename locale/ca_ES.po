@@ -2,6 +2,10 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "error:asset.elevator:"
+msgid "The Asset must be unique."
+msgstr "El actiu ha de ser únic."
+
 msgctxt "field:asset.building,create_date:"
 msgid "Create Date"
 msgstr "Data de creació"

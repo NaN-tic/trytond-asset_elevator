@@ -213,6 +213,13 @@ class Elevator(ModelSQL, ModelView):
     parachute_counterweight = fields.Boolean('Parachute counterweight')
     notes = fields.Text('Notes')
 
+    @classmethod
+    def __setup__(cls):
+        super(Elevator, cls).__setup__()
+        cls._sql_constraints += [
+            ('asset_unique', 'UNIQUE(asset)', 'The Asset must be unique.'),
+            ]
+
     @staticmethod
     def default_provenance():
         return ''
