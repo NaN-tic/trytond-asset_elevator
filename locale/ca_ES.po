@@ -822,7 +822,7 @@ msgstr "un altre conservador"
 
 msgctxt "selection:asset.elevator,provenance:"
 msgid "New Work"
-msgstr "Obra noba"
+msgstr "Obra nova"
 
 msgctxt "selection:asset.elevator,provenance:"
 msgid "Old Work"
