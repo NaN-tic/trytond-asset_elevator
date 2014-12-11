@@ -669,11 +669,11 @@ msgstr "Tipo puerta"
 
 msgctxt "model:asset.elevator,name:"
 msgid "Elevator"
-msgstr "Asensor"
+msgstr "Elevador"
 
 msgctxt "model:asset.elevator.type,name:"
 msgid "Elevator Type"
-msgstr "Tipo ascensor"
+msgstr "Tipo de elevador"
 
 msgctxt "model:asset.elevator.type,name:adh_elevator_type"
 msgid "Electric with machine room, for persons or mixed"
@@ -784,11 +784,11 @@ msgstr "Tipos puerta"
 
 msgctxt "model:ir.action,name:act_asset_elevator"
 msgid "Elevators"
-msgstr "Asensores"
+msgstr "Elevadores"
 
 msgctxt "model:ir.action,name:act_asset_elevator_type"
 msgid "Elevator Types"
-msgstr "Tipos ascensor"
+msgstr "Tipos de elevador"
 
 msgctxt "model:ir.action,name:act_asset_finish"
 msgid "Finish"
@@ -824,15 +824,15 @@ msgstr "Tipos puerta"
 
 msgctxt "model:ir.ui.menu,name:menu_asset_elevator"
 msgid "Elevator"
-msgstr "Asensor"
+msgstr "Elevador"
 
 msgctxt "model:ir.ui.menu,name:menu_asset_elevator_from"
 msgid "Elevators"
-msgstr "Asensores"
+msgstr "Elevadores"
 
 msgctxt "model:ir.ui.menu,name:menu_asset_elevator_type"
 msgid "Elevator Types"
-msgstr "Tipos ascensor"
+msgstr "Tipos elevador"
 
 msgctxt "model:ir.ui.menu,name:menu_asset_finish"
 msgid "Finish"
@@ -912,11 +912,11 @@ msgstr "Tipos puerta"
 
 msgctxt "view:asset.elevator.type:"
 msgid "Elevator Type"
-msgstr "Tipo ascensor"
+msgstr "Tipo elevador"
 
 msgctxt "view:asset.elevator.type:"
 msgid "Elevator Types"
-msgstr "Tipos ascensor"
+msgstr "Tipos elevador"
 
 msgctxt "view:asset.elevator:"
 msgid "Bidirectional"
@@ -972,11 +972,11 @@ msgstr "Puertas"
 
 msgctxt "view:asset.elevator:"
 msgid "Elevator"
-msgstr "Asensor"
+msgstr "Elevador"
 
 msgctxt "view:asset.elevator:"
 msgid "Elevators"
-msgstr "Asensores"
+msgstr "Elevadores"
 
 msgctxt "view:asset.elevator:"
 msgid "Finish"

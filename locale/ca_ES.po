@@ -668,11 +668,11 @@ msgstr "Tipus de portes"
 
 msgctxt "model:asset.elevator,name:"
 msgid "Elevator"
-msgstr "Ascensor"
+msgstr "Elevador"
 
 msgctxt "model:asset.elevator.type,name:"
 msgid "Elevator Type"
-msgstr "Tipus d'ascensor"
+msgstr "Tipus d'elevador"
 
 msgctxt "model:asset.elevator.type,name:adh_elevator_type"
 msgid "Electric with machine room, for persons or mixed"
@@ -783,11 +783,11 @@ msgstr "Tipus de portes"
 
 msgctxt "model:ir.action,name:act_asset_elevator"
 msgid "Elevators"
-msgstr "Ascensors"
+msgstr "Elevadors"
 
 msgctxt "model:ir.action,name:act_asset_elevator_type"
 msgid "Elevator Types"
-msgstr "Tipus d'ascensors"
+msgstr "Tipus d'elevadors"
 
 msgctxt "model:ir.action,name:act_asset_finish"
 msgid "Finish"
@@ -823,15 +823,15 @@ msgstr "Tipus de portes"
 
 msgctxt "model:ir.ui.menu,name:menu_asset_elevator"
 msgid "Elevator"
-msgstr "Ascensor"
+msgstr "Elevador"
 
 msgctxt "model:ir.ui.menu,name:menu_asset_elevator_from"
 msgid "Elevators"
-msgstr "Ascensors"
+msgstr "Elevadors"
 
 msgctxt "model:ir.ui.menu,name:menu_asset_elevator_type"
 msgid "Elevator Types"
-msgstr "Tipus d'ascensors"
+msgstr "Tipus d'elevadors"
 
 msgctxt "model:ir.ui.menu,name:menu_asset_finish"
 msgid "Finish"
@@ -879,7 +879,7 @@ msgstr "un altre conservador"
 
 msgctxt "selection:asset.elevator,provenance:"
 msgid "New Work"
-msgstr "Obra nova"
+msgstr "Obra noba"
 
 msgctxt "selection:asset.elevator,provenance:"
 msgid "Old Work"
@@ -911,11 +911,11 @@ msgstr "Tipus de portes"
 
 msgctxt "view:asset.elevator.type:"
 msgid "Elevator Type"
-msgstr "Tipus d'ascensor"
+msgstr "Tipus d'elevador"
 
 msgctxt "view:asset.elevator.type:"
 msgid "Elevator Types"
-msgstr "Tipus d'ascensors"
+msgstr "Tipus d'elevador"
 
 msgctxt "view:asset.elevator:"
 msgid "Bidirectional"
@@ -971,11 +971,11 @@ msgstr "Portes"
 
 msgctxt "view:asset.elevator:"
 msgid "Elevator"
-msgstr "Ascensor"
+msgstr "Elevador"
 
 msgctxt "view:asset.elevator:"
 msgid "Elevators"
-msgstr "Ascensors"
+msgstr "Elevadors"
 
 msgctxt "view:asset.elevator:"
 msgid "Finish"
