@@ -30,6 +30,8 @@
             <field name="rpm_motor"/>
             <label name="velocity"/>
             <field name="velocity"/>
+            <label name="path_length"/>
+            <field name="path_length"/>
             <label name="situation"/>
             <field name="situation"/>
             <label name="administrator"/>
@@ -70,10 +72,17 @@
             </group>
             <group id="cabin" col="2">
                 <separator id="cabin" string="Cabin" colspan="2"/>
-                <label id="height" string="Height"/>
-                <field name="cabin_height"/>
+                <label id="depth" string="Depth"/>
+                <field name="cabin_depth"/>
                 <label id="width" string="Width"/>
                 <field name="cabin_width"/>
+            </group>
+            <group id="door" col="2">
+                <separator id="door" string="Door" colspan="2"/>
+                <label name="door_width"/>
+                <field name="door_width"/>
+                <label name="door_height"/>
+                <field name="door_height"/>
             </group>
             <group id="displays" col="2">
                 <separator id="displays" string="Displays" colspan="2"/>

@@ -110,6 +110,11 @@ msgctxt "field:asset.elevator,cabin_chassis_product:"
 msgid "Cabin chasis product"
 msgstr "Producto chasis cabina"
 
+#, fuzzy
+msgctxt "field:asset.elevator,cabin_depth:"
+msgid "Depth"
+msgstr "Profundidad"
+
 msgctxt "field:asset.elevator,cabin_guides:"
 msgid "Cabin Guides"
 msgstr "Guías cabina"
@@ -166,6 +171,14 @@ msgctxt "field:asset.elevator,displays_product:"
 msgid "Displays product"
 msgstr "Producto displays"
 
+msgctxt "field:asset.elevator,door_height:"
+msgid "Door Height"
+msgstr "Altura puerta"
+
+msgctxt "field:asset.elevator,door_heigth:"
+msgid "Door Heigth"
+msgstr "Altura puerta"
+
 msgctxt "field:asset.elevator,door_motor_brand:"
 msgid "Door Motor Brand"
 msgstr "Marca motor puertas"
@@ -173,6 +186,14 @@ msgstr "Marca motor puertas"
 msgctxt "field:asset.elevator,door_motor_product:"
 msgid "Door Motor Product"
 msgstr "Producto motor puertas"
+
+msgctxt "field:asset.elevator,door_width:"
+msgid "Door Width"
+msgstr "Anchura puerta"
+
+msgctxt "field:asset.elevator,door_witdth:"
+msgid "Door Width"
+msgstr "Anchura puerta"
 
 msgctxt "field:asset.elevator,doors_brand:"
 msgid "Doors brand"
@@ -293,6 +314,10 @@ msgstr "Marca paracaidas"
 msgctxt "field:asset.elevator,parachute_counterweight:"
 msgid "Parachute counterweight"
 msgstr "Contrapeso paracaidas"
+
+msgctxt "field:asset.elevator,path_length:"
+msgid "Path Length"
+msgstr "Recorrido"
 
 msgctxt "field:asset.elevator,payload:"
 msgid "Payload"
@@ -649,6 +674,41 @@ msgstr "Asensor"
 msgctxt "model:asset.elevator.type,name:"
 msgid "Elevator Type"
 msgstr "Tipo ascensor"
+
+msgctxt "model:asset.elevator.type,name:adh_elevator_type"
+msgid "Electric with machine room, for persons or mixed"
+msgstr ""
+
+msgctxt "model:asset.elevator.type,name:adhsnc_elevator_type"
+msgid "Electric with machine room. Gearless Machine"
+msgstr ""
+
+msgctxt "model:asset.elevator.type,name:adhwf_elevator_type"
+msgid "Electric with machine room and WF maneveur"
+msgstr ""
+
+msgctxt "model:asset.elevator.type,name:ajd_elevator_type"
+msgid "Without room machine, machine in moat without HD"
+msgstr ""
+
+msgctxt "model:asset.elevator.type,name:hd_elevator_type"
+msgid "Hydraulic for persons or mixed"
+msgstr ""
+
+msgctxt "model:asset.elevator.type,name:hddl_elevator_type"
+msgid "Hydraulic machine directive. Unifamiliar withou moat"
+msgstr ""
+
+msgctxt "model:asset.elevator.type,name:ksj_elevator_type"
+msgid ""
+"Wihtout machine room, without superior machine,\n"
+"                door chassis or bag.\n"
+"            "
+msgstr ""
+
+msgctxt "model:asset.elevator.type,name:pi_elevator_type"
+msgid "Indrustrial plataforms, no persons"
+msgstr ""
 
 msgctxt "model:asset.finish,name:"
 msgid "Finish"

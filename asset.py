@@ -119,7 +119,7 @@ class Elevator(ModelSQL, ModelView):
             ('type', '!=', 'service'),
             ])
     locks_brand = fields.Many2One('product.brand', 'Locks brand')
-    cabin_height = fields.Float('Height', digits=(16, 2))
+    cabin_depth = fields.Float('Depth', digits=(16, 2))
     cabin_width = fields.Float('Width', digits=(16, 2))
     lateral_finish = fields.Many2One('asset.finish', 'Lateral Finish')
     ground_finish = fields.Many2One('asset.finish', 'Ground Finish')
@@ -177,7 +177,7 @@ class Elevator(ModelSQL, ModelView):
             ])
     pulley = fields.Integer('Pulley', help='Milimeters of the pulley '
         'diamenter')
-    power = fields.Integer('Power', help='Power (in kw)')
+    power = fields.Float('Power', digits=(16, 2), help='Power (in kw)')
     rpm_motor = fields.Integer('RPM Motor')
     wire_number = fields.Integer('Wire number')
     wire_diameter = fields.Integer('Wire diameter')
@@ -185,6 +185,9 @@ class Elevator(ModelSQL, ModelView):
     deflection_pulley = fields.Boolean('Deflection pulley')
     brake_brand = fields.Many2One('product.brand', 'Brake Brand')
     cilinder_brand = fields.Many2One('product.brand', 'Cilinder Brand')
+    path_length = fields.Float('Path Length', digits=(16, 2))
+    door_width = fields.Float('Door Width', digits=(16, 2))
+    door_height = fields.Float('Door Height', digits=(16, 2))
     suspension_type = fields.Many2One('asset.suspension.type',
         'Suspension Type')
     hose_diameter = fields.Integer('Hose diameter')
