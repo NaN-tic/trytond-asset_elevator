@@ -2,9 +2,389 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "error:asset.elevator:"
-msgid "The Asset must be unique."
-msgstr "El actiu ha de ser únic."
+msgctxt "field:asset,active:"
+msgid "Active"
+msgstr "Actiu"
+
+msgctxt "field:asset,administrator:"
+msgid "Administrator"
+msgstr "Administrador"
+
+msgctxt "field:asset,bidirectional_brand:"
+msgid "Bidirectional brand"
+msgstr "Marca bidireccional"
+
+msgctxt "field:asset,bidirectional_product:"
+msgid "Bidirectional product"
+msgstr "Producte bidireccional"
+
+msgctxt "field:asset,brake_brand:"
+msgid "Brake Brand"
+msgstr "Marca frens"
+
+msgctxt "field:asset,brake_voltage:"
+msgid "Brake Voltage"
+msgstr "Tensió frens"
+
+msgctxt "field:asset,building:"
+msgid "Building"
+msgstr "Edifici"
+
+msgctxt "field:asset,buttons_brand:"
+msgid "Buttons brand"
+msgstr "Marca polsadors"
+
+msgctxt "field:asset,buttons_product:"
+msgid "Buttons product"
+msgstr "Producte polsadors"
+
+msgctxt "field:asset,cabin_accesses:"
+msgid "Cabin Accesses"
+msgstr "Accessos cabina"
+
+msgctxt "field:asset,cabin_buttons:"
+msgid "Cabin Buttons"
+msgstr "Botons cabina"
+
+msgctxt "field:asset,cabin_chassis_brand:"
+msgid "Cabin chasis brand"
+msgstr "Marca xasís cabina"
+
+msgctxt "field:asset,cabin_chassis_product:"
+msgid "Cabin chasis product"
+msgstr "Producte xasís cabina"
+
+msgctxt "field:asset,cabin_depth:"
+msgid "Depth"
+msgstr "Profunditat"
+
+msgctxt "field:asset,cabin_doors:"
+msgid "Cabin Doors"
+msgstr "Portes cabina"
+
+msgctxt "field:asset,cabin_doors_module:"
+msgid "Cabin Doors Module"
+msgstr "Mòdul portes cabina"
+
+msgctxt "field:asset,cabin_guides:"
+msgid "Cabin Guides"
+msgstr "Guies cabina"
+
+msgctxt "field:asset,cabin_width:"
+msgid "Width"
+msgstr "Amplada"
+
+msgctxt "field:asset,cilinder_brand:"
+msgid "Cilinder Brand"
+msgstr "Marca cilindre"
+
+msgctxt "field:asset,code:"
+msgid "Code"
+msgstr "Codi"
+
+msgctxt "field:asset,conductors_connection:"
+msgid "Conductors Connection"
+msgstr "Conexió contractors"
+
+msgctxt "field:asset,conductors_length:"
+msgid "Conductors Length"
+msgstr "Llargada conductors"
+
+msgctxt "field:asset,conservative:"
+msgid "Conservative"
+msgstr "Conservador"
+
+msgctxt "field:asset,contactor_types:"
+msgid "Contactor Types"
+msgstr "Tipus contractors"
+
+msgctxt "field:asset,contactor_voltage:"
+msgid "Contactor Voltage"
+msgstr "Tensió contractors"
+
+msgctxt "field:asset,counterweight_guides:"
+msgid "Counterweight Guides"
+msgstr "Guies contrapès"
+
+msgctxt "field:asset,counterweight_product:"
+msgid "Counterweight Product"
+msgstr "Producte contrapes"
+
+msgctxt "field:asset,create_date:"
+msgid "Create Date"
+msgstr "Data de creació"
+
+msgctxt "field:asset,create_uid:"
+msgid "Create User"
+msgstr "Usuari de creació"
+
+msgctxt "field:asset,deflection_pulley:"
+msgid "Deflection pulley"
+msgstr "Politja de desviament"
+
+msgctxt "field:asset,displays_brand:"
+msgid "Displays brand"
+msgstr "Marca displays"
+
+msgctxt "field:asset,displays_product:"
+msgid "Displays product"
+msgstr "Producte displays"
+
+msgctxt "field:asset,door_height:"
+msgid "Door Height"
+msgstr "Alçada porta"
+
+msgctxt "field:asset,door_motor_brand:"
+msgid "Door Motor Brand"
+msgstr "Marca motor portes"
+
+msgctxt "field:asset,door_motor_product:"
+msgid "Door Motor Product"
+msgstr "Producte motor portes"
+
+msgctxt "field:asset,door_width:"
+msgid "Door Width"
+msgstr "Amplada porta"
+
+msgctxt "field:asset,doors_brand:"
+msgid "Doors brand"
+msgstr "Marca portes"
+
+msgctxt "field:asset,doors_number:"
+msgid "Doors Number"
+msgstr "Número de portes"
+
+msgctxt "field:asset,doors_product:"
+msgid "Doors Product"
+msgstr "Producte portes"
+
+msgctxt "field:asset,elevator_type:"
+msgid "Type"
+msgstr "Tipus"
+
+msgctxt "field:asset,general_state:"
+msgid "General State"
+msgstr "Estat General"
+
+msgctxt "field:asset,ground_finish:"
+msgid "Ground Finish"
+msgstr "Acabat del Terra"
+
+msgctxt "field:asset,gsm:"
+msgid "GSM"
+msgstr "GSM"
+
+msgctxt "field:asset,hand:"
+msgid "Hand"
+msgstr "Mà"
+
+msgctxt "field:asset,hose_diameter:"
+msgid "Hose diameter"
+msgstr "Diàmetre mànega"
+
+msgctxt "field:asset,hose_lenght:"
+msgid "Hose lenght"
+msgstr "Llargada mànega"
+
+msgctxt "field:asset,hose_type:"
+msgid "Hose Type"
+msgstr "Tipus de mànega"
+
+msgctxt "field:asset,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:asset,in_normative:"
+msgid "In Normative"
+msgstr "En normativa"
+
+msgctxt "field:asset,input_voltage:"
+msgid "Input Voltage"
+msgstr "Tensió entrada"
+
+msgctxt "field:asset,landing_door_type:"
+msgid "Landing door type"
+msgstr "Tipus portes replà"
+
+msgctxt "field:asset,lateral_finish:"
+msgid "Lateral Finish"
+msgstr "Acabats lateral"
+
+msgctxt "field:asset,light_height:"
+msgid "Height"
+msgstr "Altura"
+
+msgctxt "field:asset,light_width:"
+msgid "Width"
+msgstr "Amplada"
+
+msgctxt "field:asset,ligths_voltage:"
+msgid "Ligths Voltage"
+msgstr "Tensió lluminosos"
+
+msgctxt "field:asset,limiter_brand:"
+msgid "Limiter Brand"
+msgstr "Marca limitador"
+
+msgctxt "field:asset,limiter_diameter:"
+msgid "Limiter Diamater"
+msgstr "Diàmetre limitador"
+
+msgctxt "field:asset,limiter_wire_diameter:"
+msgid "Limiter Wire Diamater"
+msgstr "Diàmetre cable limitador"
+
+msgctxt "field:asset,limiter_wire_lenght:"
+msgid "Limiter Wire Length"
+msgstr "Longitud cable limitador"
+
+msgctxt "field:asset,lleva_voltage:"
+msgid "Lleva Voltage"
+msgstr "Tensió lleva"
+
+msgctxt "field:asset,locks_brand:"
+msgid "Locks brand"
+msgstr "Marca panys"
+
+msgctxt "field:asset,machine_brand:"
+msgid "Machine brand"
+msgstr "Marca màquina"
+
+msgctxt "field:asset,machine_product:"
+msgid "Machine product"
+msgstr "Producte màquina"
+
+msgctxt "field:asset,main_buttons:"
+msgid "Main Floor Buttons"
+msgstr "Botons porta principal"
+
+msgctxt "field:asset,maneveur_type:"
+msgid "Maneveur Type"
+msgstr "Tipus maniobra"
+
+msgctxt "field:asset,manevuer_manufacturer:"
+msgid "Manevuer Manufacturer"
+msgstr "Fabricant maniobra"
+
+msgctxt "field:asset,manufacturer:"
+msgid "Manufacturer"
+msgstr "Fabricant"
+
+msgctxt "field:asset,material_brand:"
+msgid "Material brand"
+msgstr "Marca material"
+
+msgctxt "field:asset,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:asset,number_of_conductors:"
+msgid "Number of conductors"
+msgstr "Número de conductros"
+
+msgctxt "field:asset,other_buttons:"
+msgid "Other floors Buttons"
+msgstr "Botons altres plantes"
+
+msgctxt "field:asset,parachute_brand:"
+msgid "Parachute brand"
+msgstr "Marca paracaigudes"
+
+msgctxt "field:asset,parachute_counterweight:"
+msgid "Parachute counterweight"
+msgstr "Contrapès paracaigudes"
+
+msgctxt "field:asset,path_length:"
+msgid "Path Length"
+msgstr "Recorregut"
+
+msgctxt "field:asset,payload:"
+msgid "Payload"
+msgstr "Càrrega útil"
+
+msgctxt "field:asset,persons:"
+msgid "Persons"
+msgstr "Persones"
+
+msgctxt "field:asset,phone:"
+msgid "Phone"
+msgstr "Telèfon"
+
+msgctxt "field:asset,piston_diameter:"
+msgid "Piston diameter"
+msgstr "Diàmetre pistó"
+
+msgctxt "field:asset,power:"
+msgid "Power"
+msgstr "Potència"
+
+msgctxt "field:asset,provenance:"
+msgid "Proveanence"
+msgstr "Provinència"
+
+msgctxt "field:asset,pulley:"
+msgid "Pulley"
+msgstr "Politja"
+
+msgctxt "field:asset,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:asset,reformed:"
+msgid "Reformed"
+msgstr "Reformat"
+
+msgctxt "field:asset,registry_number:"
+msgid "R.A.E."
+msgstr "R.A.E."
+
+msgctxt "field:asset,roof_finish:"
+msgid "Roof Finish"
+msgstr "Acabats terra"
+
+msgctxt "field:asset,rpm_motor:"
+msgid "RPM Motor"
+msgstr "RPM motor"
+
+msgctxt "field:asset,situation:"
+msgid "Situation"
+msgstr "Situació"
+
+msgctxt "field:asset,stops:"
+msgid "Stops"
+msgstr "Parades"
+
+msgctxt "field:asset,suspension_type:"
+msgid "Suspension Type"
+msgstr "Tipus de suspensió"
+
+msgctxt "field:asset,type:"
+msgid "Type"
+msgstr "Tipus"
+
+msgctxt "field:asset,velocity:"
+msgid "Velocity"
+msgstr "Velocitat"
+
+msgctxt "field:asset,wire_diameter:"
+msgid "Wire diameter"
+msgstr "Diàmetre cables"
+
+msgctxt "field:asset,wire_lenght:"
+msgid "Wire lenght"
+msgstr "Longitud cables"
+
+msgctxt "field:asset,wire_number:"
+msgid "Wire number"
+msgstr "Número de cables"
+
+msgctxt "field:asset,write_date:"
+msgid "Write Date"
+msgstr "Data modificació"
+
+msgctxt "field:asset,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
 
 msgctxt "field:asset.building,create_date:"
 msgid "Create Date"
@@ -59,342 +439,6 @@ msgid "Write Date"
 msgstr "Data modificació"
 
 msgctxt "field:asset.door.type,write_uid:"
-msgid "Write User"
-msgstr "Usuari modificació"
-
-msgctxt "field:asset.elevator,active:"
-msgid "Active"
-msgstr "Actiu"
-
-msgctxt "field:asset.elevator,administrator:"
-msgid "Administrator"
-msgstr "Administrador"
-
-msgctxt "field:asset.elevator,asset:"
-msgid "Asset"
-msgstr "Actiu"
-
-msgctxt "field:asset.elevator,bidirectional_brand:"
-msgid "Bidirectional brand"
-msgstr "Marca bidireccional"
-
-msgctxt "field:asset.elevator,bidirectional_product:"
-msgid "Bidirectional product"
-msgstr "Producte bidireccional"
-
-msgctxt "field:asset.elevator,brake_brand:"
-msgid "Brake Brand"
-msgstr "Marca frens"
-
-msgctxt "field:asset.elevator,brake_voltage:"
-msgid "Brake Voltage"
-msgstr "Tensió frens"
-
-msgctxt "field:asset.elevator,building:"
-msgid "Building"
-msgstr "Edifici"
-
-msgctxt "field:asset.elevator,buttons_brand:"
-msgid "Buttons brand"
-msgstr "Marca polsadors"
-
-msgctxt "field:asset.elevator,buttons_product:"
-msgid "Buttons product"
-msgstr "Producte polsadors"
-
-msgctxt "field:asset.elevator,cabin_chassis_brand:"
-msgid "Cabin chasis brand"
-msgstr "Marca xasís cabina"
-
-msgctxt "field:asset.elevator,cabin_chassis_product:"
-msgid "Cabin chasis product"
-msgstr "Producte xasís cabina"
-
-msgctxt "field:asset.elevator,cabin_depth:"
-msgid "Depth"
-msgstr "Profunditat"
-
-msgctxt "field:asset.elevator,cabin_guides:"
-msgid "Cabin Guides"
-msgstr "Guies cabina"
-
-msgctxt "field:asset.elevator,cabin_height:"
-msgid "Height"
-msgstr "Altura"
-
-msgctxt "field:asset.elevator,cabin_width:"
-msgid "Width"
-msgstr "Amplada"
-
-msgctxt "field:asset.elevator,cilinder_brand:"
-msgid "Cilinder Brand"
-msgstr "Marca cilindre"
-
-msgctxt "field:asset.elevator,code:"
-msgid "Code"
-msgstr "Codi"
-
-msgctxt "field:asset.elevator,conductors_length:"
-msgid "Conductors Length"
-msgstr "Llargada conductors"
-
-msgctxt "field:asset.elevator,contactor_types:"
-msgid "Contactor Types"
-msgstr "Tipus contractors"
-
-msgctxt "field:asset.elevator,contactor_voltage:"
-msgid "Contactor Voltage"
-msgstr "Tensió contractors"
-
-msgctxt "field:asset.elevator,counterweight_guides:"
-msgid "Counterweight Guides"
-msgstr "Guies contrapès"
-
-msgctxt "field:asset.elevator,create_date:"
-msgid "Create Date"
-msgstr "Data de creació"
-
-msgctxt "field:asset.elevator,create_uid:"
-msgid "Create User"
-msgstr "Usuari de creació"
-
-msgctxt "field:asset.elevator,deflection_pulley:"
-msgid "Deflection pulley"
-msgstr "Politja de desviament"
-
-msgctxt "field:asset.elevator,displays_brand:"
-msgid "Displays brand"
-msgstr "Marca displays"
-
-msgctxt "field:asset.elevator,displays_product:"
-msgid "Displays product"
-msgstr "Producte displays"
-
-msgctxt "field:asset.elevator,door_height:"
-msgid "Door Height"
-msgstr "Alçada porta"
-
-msgctxt "field:asset.elevator,door_heigth:"
-msgid "Door Heigth"
-msgstr "Alçada porta"
-
-msgctxt "field:asset.elevator,door_motor_brand:"
-msgid "Door Motor Brand"
-msgstr "Marca motor portes"
-
-msgctxt "field:asset.elevator,door_motor_product:"
-msgid "Door Motor Product"
-msgstr "Producte motor portes"
-
-msgctxt "field:asset.elevator,door_width:"
-msgid "Door Width"
-msgstr "Amplada porta"
-
-msgctxt "field:asset.elevator,door_witdth:"
-msgid "Door Width"
-msgstr "Amplada porta"
-
-msgctxt "field:asset.elevator,doors_brand:"
-msgid "Doors brand"
-msgstr "Marca portes"
-
-msgctxt "field:asset.elevator,doors_number:"
-msgid "Doors Number"
-msgstr "Número de portes"
-
-msgctxt "field:asset.elevator,doors_product:"
-msgid "Doors Product"
-msgstr "Producte portes"
-
-msgctxt "field:asset.elevator,ground_finish:"
-msgid "Ground Finish"
-msgstr "Acabat del Terra"
-
-msgctxt "field:asset.elevator,gsm:"
-msgid "GSM"
-msgstr "GSM"
-
-msgctxt "field:asset.elevator,hand:"
-msgid "Hand"
-msgstr "Mà"
-
-msgctxt "field:asset.elevator,hose_diameter:"
-msgid "Hose diameter"
-msgstr "Diàmetre mànega"
-
-msgctxt "field:asset.elevator,hose_lenght:"
-msgid "Hose lenght"
-msgstr "Llargada mànega"
-
-msgctxt "field:asset.elevator,hose_type:"
-msgid "Hose Type"
-msgstr "Tipus de mànega"
-
-msgctxt "field:asset.elevator,id:"
-msgid "ID"
-msgstr "Identificador"
-
-msgctxt "field:asset.elevator,input_voltage:"
-msgid "Input Voltage"
-msgstr "Tensió entrada"
-
-msgctxt "field:asset.elevator,landing_door_type:"
-msgid "Landing door type"
-msgstr "Tipus portes replà"
-
-msgctxt "field:asset.elevator,lateral_finish:"
-msgid "Lateral Finish"
-msgstr "Acabats lateral"
-
-msgctxt "field:asset.elevator,light_height:"
-msgid "Height"
-msgstr "Altura"
-
-msgctxt "field:asset.elevator,light_width:"
-msgid "Width"
-msgstr "Amplada"
-
-msgctxt "field:asset.elevator,ligths_voltage:"
-msgid "Ligths Voltage"
-msgstr "Tensió lluminosos"
-
-msgctxt "field:asset.elevator,limiter_brand:"
-msgid "Limiter Brand"
-msgstr "Marca limitador"
-
-msgctxt "field:asset.elevator,limiter_diameter:"
-msgid "Limiter Diamater"
-msgstr "Diàmetre limitador"
-
-msgctxt "field:asset.elevator,limiter_lenght:"
-msgid "Limiter Length"
-msgstr "Longitud limitador"
-
-msgctxt "field:asset.elevator,lleva_voltage:"
-msgid "Lleva Voltage"
-msgstr "Tensió lleva"
-
-msgctxt "field:asset.elevator,locks_brand:"
-msgid "Locks brand"
-msgstr "Marca panys"
-
-msgctxt "field:asset.elevator,machine_brand:"
-msgid "Machine brand"
-msgstr "Marca màquina"
-
-msgctxt "field:asset.elevator,machine_product:"
-msgid "Machine product"
-msgstr "Producte màquina"
-
-msgctxt "field:asset.elevator,maneveur_type:"
-msgid "Maneveur Type"
-msgstr "Tipus maniobra"
-
-msgctxt "field:asset.elevator,manevuer_manufacturer:"
-msgid "Manevuer Manufacturer"
-msgstr "Fabricant maniobra"
-
-msgctxt "field:asset.elevator,material_brand:"
-msgid "Material brand"
-msgstr "Marca material"
-
-msgctxt "field:asset.elevator,notes:"
-msgid "Notes"
-msgstr "Notes"
-
-msgctxt "field:asset.elevator,number_of_conductors:"
-msgid "Number of conductors"
-msgstr "Número de conductros"
-
-msgctxt "field:asset.elevator,parachute_brand:"
-msgid "Parachute brand"
-msgstr "Marca paracaigudes"
-
-msgctxt "field:asset.elevator,parachute_counterweight:"
-msgid "Parachute counterweight"
-msgstr "Contrapès paracaigudes"
-
-msgctxt "field:asset.elevator,path_length:"
-msgid "Path Length"
-msgstr "Recorregut"
-
-msgctxt "field:asset.elevator,payload:"
-msgid "Payload"
-msgstr "Càrrega útil"
-
-msgctxt "field:asset.elevator,persons:"
-msgid "Persons"
-msgstr "Persones"
-
-msgctxt "field:asset.elevator,phone:"
-msgid "Phone"
-msgstr "Telèfon"
-
-msgctxt "field:asset.elevator,power:"
-msgid "Power"
-msgstr "Potència"
-
-msgctxt "field:asset.elevator,provenance:"
-msgid "Proveanence"
-msgstr "Provinència"
-
-msgctxt "field:asset.elevator,pulley:"
-msgid "Pulley"
-msgstr "Politja"
-
-msgctxt "field:asset.elevator,rec_name:"
-msgid "Name"
-msgstr "Nom"
-
-msgctxt "field:asset.elevator,registry_number:"
-msgid "R.A.E."
-msgstr "R.A.E."
-
-msgctxt "field:asset.elevator,roof_finish:"
-msgid "Roof Finish"
-msgstr "Acabats terra"
-
-msgctxt "field:asset.elevator,rpm_motor:"
-msgid "RPM Motor"
-msgstr "RPM motor"
-
-msgctxt "field:asset.elevator,situation:"
-msgid "Situation"
-msgstr "Situació"
-
-msgctxt "field:asset.elevator,stops:"
-msgid "Stops"
-msgstr "Parades"
-
-msgctxt "field:asset.elevator,suspension_type:"
-msgid "Suspension Type"
-msgstr "Tipus de suspensió"
-
-msgctxt "field:asset.elevator,type:"
-msgid "Type"
-msgstr "Tipus"
-
-msgctxt "field:asset.elevator,velocity:"
-msgid "Velocity"
-msgstr "Velocitat"
-
-msgctxt "field:asset.elevator,wire_diameter:"
-msgid "Wire diameter"
-msgstr "Diàmetre cables"
-
-msgctxt "field:asset.elevator,wire_lenght:"
-msgid "Wire lenght"
-msgstr "Longitud cables"
-
-msgctxt "field:asset.elevator,wire_number:"
-msgid "Wire number"
-msgstr "Número de cables"
-
-msgctxt "field:asset.elevator,write_date:"
-msgid "Write Date"
-msgstr "Data modificació"
-
-msgctxt "field:asset.elevator,write_uid:"
 msgid "Write User"
 msgstr "Usuari modificació"
 
@@ -602,37 +646,41 @@ msgctxt "field:asset.suspension.type,write_uid:"
 msgid "Write User"
 msgstr "Usuari modificació"
 
-msgctxt "help:asset.elevator,brake_voltage:"
+msgctxt "help:asset,brake_voltage:"
 msgid "Brake voltage (in volts)"
 msgstr "Tensió frens (en volts)"
 
-msgctxt "help:asset.elevator,contactor_voltage:"
+msgctxt "help:asset,contactor_voltage:"
 msgid "Contactor voltage (in volts)"
 msgstr "Tensió contractors (en volts)"
 
-msgctxt "help:asset.elevator,input_voltage:"
+msgctxt "help:asset,input_voltage:"
 msgid "Voltage at the entrance of the property (in volts"
 msgstr "Tensió a l'entrada de la propietat (en volts)"
 
-msgctxt "help:asset.elevator,ligths_voltage:"
+msgctxt "help:asset,ligths_voltage:"
 msgid "Ligths voltage (in volts)"
 msgstr "Tensió lluminosos (en volts)"
 
-msgctxt "help:asset.elevator,lleva_voltage:"
+msgctxt "help:asset,lleva_voltage:"
 msgid "Lleva voltage (in volts)"
 msgstr "Tensió lleva (en volts)"
 
-msgctxt "help:asset.elevator,power:"
+msgctxt "help:asset,power:"
 msgid "Power (in kw)"
 msgstr "Potència (en kw)"
 
-msgctxt "help:asset.elevator,pulley:"
+msgctxt "help:asset,pulley:"
 msgid "Milimeters of the pulley diamenter"
 msgstr "Diàmetre de la politja (en mm)."
 
-msgctxt "help:asset.elevator,registry_number:"
+msgctxt "help:asset,registry_number:"
 msgid "Elevator machine number"
 msgstr "Registre aparell elevador"
+
+msgctxt "model:asset,name:"
+msgid "Elevator"
+msgstr "Elevador"
 
 msgctxt "model:asset.building,name:"
 msgid "Building"
@@ -666,29 +714,25 @@ msgctxt "model:asset.door.type,name:"
 msgid "Door Type"
 msgstr "Tipus de portes"
 
-msgctxt "model:asset.elevator,name:"
-msgid "Elevator"
-msgstr "Elevador"
-
 msgctxt "model:asset.elevator.type,name:"
 msgid "Elevator Type"
 msgstr "Tipus d'elevador"
 
 msgctxt "model:asset.elevator.type,name:adh_elevator_type"
 msgid "Electric with machine room, for persons or mixed"
-msgstr ""
+msgstr "Elèctric amb cambra de màquina, per persones o mitxes."
 
 msgctxt "model:asset.elevator.type,name:adhsnc_elevator_type"
 msgid "Electric with machine room. Gearless Machine"
-msgstr ""
+msgstr "Elèctric amb cambra de màquina. Màquina Gearless."
 
 msgctxt "model:asset.elevator.type,name:adhwf_elevator_type"
 msgid "Electric with machine room and WF maneveur"
-msgstr ""
+msgstr "Elèctric amb cambra de màquina i maniobra WF."
 
 msgctxt "model:asset.elevator.type,name:ajd_elevator_type"
 msgid "Without room machine, machine in moat without HD"
-msgstr ""
+msgstr "Sense cambra de màquina, maquina en fosa sense HD."
 
 msgctxt "model:asset.elevator.type,name:hd_elevator_type"
 msgid "Hydraulic for persons or mixed"
@@ -696,7 +740,7 @@ msgstr "Hidràulic per persones o mixtes"
 
 msgctxt "model:asset.elevator.type,name:hddl_elevator_type"
 msgid "Hydraulic machine directive. Unifamiliar withou moat"
-msgstr ""
+msgstr "Màquina amb directiva hidràulica. Unifamiliar sense fosa."
 
 msgctxt "model:asset.elevator.type,name:ksj_elevator_type"
 msgid ""
@@ -704,10 +748,11 @@ msgid ""
 "                door chassis or bag.\n"
 "            "
 msgstr ""
+"Sense cambra de màquines, sense maquina superior, chasis de portes o bossa. "
 
 msgctxt "model:asset.elevator.type,name:pi_elevator_type"
 msgid "Indrustrial plataforms, no persons"
-msgstr ""
+msgstr "Plataforma industrial, no persones."
 
 msgctxt "model:asset.finish,name:"
 msgid "Finish"
@@ -757,6 +802,18 @@ msgctxt "model:asset.situation,name:"
 msgid "Situation"
 msgstr "Situació"
 
+msgctxt "model:asset.situation,name:lateral_situation"
+msgid "Lateral"
+msgstr "Lateral"
+
+msgctxt "model:asset.situation,name:lower_situation"
+msgid "Lower"
+msgstr "Inferior"
+
+msgctxt "model:asset.situation,name:upper_situation"
+msgid "Upper"
+msgstr "Superior"
+
 msgctxt "model:asset.suspension.type,name:"
 msgid "Suspension Type"
 msgstr "Tipus de suspensió"
@@ -781,13 +838,13 @@ msgctxt "model:ir.action,name:act_asset_door_type"
 msgid "Door Types"
 msgstr "Tipus de portes"
 
-msgctxt "model:ir.action,name:act_asset_elevator"
-msgid "Elevators"
-msgstr "Elevadors"
-
 msgctxt "model:ir.action,name:act_asset_elevator_type"
 msgid "Elevator Types"
 msgstr "Tipus d'elevadors"
+
+msgctxt "model:ir.action,name:act_asset_elevators"
+msgid "Elevators"
+msgstr "Ascensors"
 
 msgctxt "model:ir.action,name:act_asset_finish"
 msgid "Finish"
@@ -857,33 +914,49 @@ msgctxt "model:ir.ui.menu,name:menu_asset_suspension_type"
 msgid "Suspension Types"
 msgstr "Tipus de suspensions"
 
-msgctxt "selection:asset.elevator,hand:"
+msgctxt "selection:asset,conductors_connection:"
 msgid ""
 msgstr " "
 
-msgctxt "selection:asset.elevator,hand:"
+msgctxt "selection:asset,conductors_connection:"
+msgid "CM"
+msgstr "CM"
+
+msgctxt "selection:asset,conductors_connection:"
+msgid "MC"
+msgstr "MC"
+
+msgctxt "selection:asset,hand:"
+msgid ""
+msgstr " "
+
+msgctxt "selection:asset,hand:"
 msgid "Left"
 msgstr "Esquerra"
 
-msgctxt "selection:asset.elevator,hand:"
+msgctxt "selection:asset,hand:"
 msgid "Right"
 msgstr "Dreta"
 
-msgctxt "selection:asset.elevator,provenance:"
+msgctxt "selection:asset,provenance:"
 msgid ""
 msgstr " "
 
-msgctxt "selection:asset.elevator,provenance:"
+msgctxt "selection:asset,provenance:"
 msgid "Another conservative"
 msgstr "un altre conservador"
 
-msgctxt "selection:asset.elevator,provenance:"
+msgctxt "selection:asset,provenance:"
 msgid "New Work"
 msgstr "Obra noba"
 
-msgctxt "selection:asset.elevator,provenance:"
+msgctxt "selection:asset,provenance:"
 msgid "Old Work"
 msgstr "Obra antiga"
+
+msgctxt "selection:asset,type:"
+msgid "Elevator"
+msgstr "Ascensor"
 
 msgctxt "selection:asset.guide,type:"
 msgid "Cabin"
@@ -916,146 +989,6 @@ msgstr "Tipus d'elevador"
 msgctxt "view:asset.elevator.type:"
 msgid "Elevator Types"
 msgstr "Tipus d'elevador"
-
-msgctxt "view:asset.elevator:"
-msgid "Bidirectional"
-msgstr "Bidireccional"
-
-msgctxt "view:asset.elevator:"
-msgid "Brakes"
-msgstr "Frens"
-
-msgctxt "view:asset.elevator:"
-msgid "Brand"
-msgstr "Marca"
-
-msgctxt "view:asset.elevator:"
-msgid "Buttons"
-msgstr "Polsadors"
-
-msgctxt "view:asset.elevator:"
-msgid "Cabin"
-msgstr "Cabina"
-
-msgctxt "view:asset.elevator:"
-msgid "Cabin Chassis"
-msgstr "Xasís cabina"
-
-msgctxt "view:asset.elevator:"
-msgid "Components"
-msgstr "Components"
-
-msgctxt "view:asset.elevator:"
-msgid "Conductors"
-msgstr "Conductors"
-
-msgctxt "view:asset.elevator:"
-msgid "Contactors"
-msgstr "Contractors"
-
-msgctxt "view:asset.elevator:"
-msgid "Diameter"
-msgstr "Diàmetre"
-
-msgctxt "view:asset.elevator:"
-msgid "Displays"
-msgstr "Displays"
-
-msgctxt "view:asset.elevator:"
-msgid "Door Motor"
-msgstr "Motor portes"
-
-msgctxt "view:asset.elevator:"
-msgid "Doors"
-msgstr "Portes"
-
-msgctxt "view:asset.elevator:"
-msgid "Elevator"
-msgstr "Elevador"
-
-msgctxt "view:asset.elevator:"
-msgid "Elevators"
-msgstr "Elevadors"
-
-msgctxt "view:asset.elevator:"
-msgid "Finish"
-msgstr "Acabats"
-
-msgctxt "view:asset.elevator:"
-msgid "General Info"
-msgstr "Informació general"
-
-msgctxt "view:asset.elevator:"
-msgid "Guides"
-msgstr "Guies"
-
-msgctxt "view:asset.elevator:"
-msgid "Height"
-msgstr "Altura"
-
-msgctxt "view:asset.elevator:"
-msgid "Hose"
-msgstr "Mànega"
-
-msgctxt "view:asset.elevator:"
-msgid "Length"
-msgstr "Longitud"
-
-msgctxt "view:asset.elevator:"
-msgid "Lights"
-msgstr "Lluminosos"
-
-msgctxt "view:asset.elevator:"
-msgid "Limiter"
-msgstr "Limitador"
-
-msgctxt "view:asset.elevator:"
-msgid "Machine"
-msgstr "Màquina"
-
-msgctxt "view:asset.elevator:"
-msgid "Maneveur"
-msgstr "Maniobra"
-
-msgctxt "view:asset.elevator:"
-msgid "Manufacturer"
-msgstr "Fabricant"
-
-msgctxt "view:asset.elevator:"
-msgid "Number"
-msgstr "Número"
-
-msgctxt "view:asset.elevator:"
-msgid "Other"
-msgstr "Un altre"
-
-msgctxt "view:asset.elevator:"
-msgid "Parachute"
-msgstr "Paracaigudes"
-
-msgctxt "view:asset.elevator:"
-msgid "Product"
-msgstr "Producte"
-
-msgctxt "view:asset.elevator:"
-msgid "Pulley"
-msgstr "Politja"
-
-msgctxt "view:asset.elevator:"
-msgid "Type"
-msgstr "Tipus"
-
-msgctxt "view:asset.elevator:"
-msgid "Voltage"
-msgstr "Tensió"
-
-msgctxt "view:asset.elevator:"
-msgid "Width"
-msgstr "Amplada"
-
-msgctxt "view:asset.elevator:"
-msgid "Wires"
-msgstr "Cables"
 
 msgctxt "view:asset.finish:"
 msgid "Finish"
@@ -1100,3 +1033,151 @@ msgstr "Tipus de suspensió"
 msgctxt "view:asset.suspension.type:"
 msgid "Suspension Types"
 msgstr "Tipus de suspensions"
+
+msgctxt "view:asset:"
+msgid "Accesses"
+msgstr "Accesos"
+
+msgctxt "view:asset:"
+msgid "Bidirectional"
+msgstr "Bidireccional"
+
+msgctxt "view:asset:"
+msgid "Brand"
+msgstr "Marca"
+
+msgctxt "view:asset:"
+msgid "Brands"
+msgstr "Marques"
+
+msgctxt "view:asset:"
+msgid "Buttons"
+msgstr "Botons"
+
+msgctxt "view:asset:"
+msgid "Buttons Numeration"
+msgstr "Númeració botons"
+
+msgctxt "view:asset:"
+msgid "Cabin"
+msgstr "Cabina"
+
+msgctxt "view:asset:"
+msgid "Cabin Chassis"
+msgstr "Xasis de la cabina"
+
+msgctxt "view:asset:"
+msgid "Components"
+msgstr "Components"
+
+msgctxt "view:asset:"
+msgid "Conductors"
+msgstr "Conductors"
+
+msgctxt "view:asset:"
+msgid "Contactors"
+msgstr "Contractors"
+
+msgctxt "view:asset:"
+msgid "Diameter"
+msgstr "Diàmetre"
+
+msgctxt "view:asset:"
+msgid "Displays"
+msgstr "Displays"
+
+msgctxt "view:asset:"
+msgid "Door Motor"
+msgstr "Motor portes"
+
+msgctxt "view:asset:"
+msgid "Doors"
+msgstr "Portes"
+
+msgctxt "view:asset:"
+msgid "Doors Module"
+msgstr "Mòdul porta"
+
+msgctxt "view:asset:"
+msgid "Elevator Info"
+msgstr "Informació ascensor"
+
+msgctxt "view:asset:"
+msgid "Hose"
+msgstr "Mànega"
+
+msgctxt "view:asset:"
+msgid "Hose Maneveur"
+msgstr "Mànega maniobra"
+
+msgctxt "view:asset:"
+msgid "Ligths"
+msgstr "Lluminosos"
+
+msgctxt "view:asset:"
+msgid "Limiter"
+msgstr "Limitador"
+
+msgctxt "view:asset:"
+msgid "Machine"
+msgstr "Màquina"
+
+msgctxt "view:asset:"
+msgid "Main Floor"
+msgstr "Planta principal"
+
+msgctxt "view:asset:"
+msgid "Maneveur"
+msgstr "Maniobra"
+
+msgctxt "view:asset:"
+msgid "Manufacturer"
+msgstr "Fabricant"
+
+msgctxt "view:asset:"
+msgid "Mesurements"
+msgstr "Mesures"
+
+msgctxt "view:asset:"
+msgid "Other"
+msgstr "Un altre"
+
+msgctxt "view:asset:"
+msgid "Other Floor"
+msgstr "Una altra planta"
+
+msgctxt "view:asset:"
+msgid "Piston"
+msgstr "Pistó"
+
+msgctxt "view:asset:"
+msgid "Product"
+msgstr "Producte"
+
+msgctxt "view:asset:"
+msgid "Type"
+msgstr "Tipus"
+
+msgctxt "view:asset:"
+msgid "Voltages"
+msgstr "Volatatges"
+
+msgctxt "view:asset:"
+msgid "Wire"
+msgstr "Cable"
+
+msgctxt "view:asset:"
+msgid "Wires"
+msgstr "Cables"
+
+msgctxt "view:asset:"
+msgid "kw"
+msgstr "kw"
+
+msgctxt "view:asset:"
+msgid "mm"
+msgstr "mm"
+
+msgctxt "view:asset:"
+msgid "x"
+msgstr "x"

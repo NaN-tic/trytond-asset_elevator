@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/notebook" position="before">
+        <separator id="elevator" string="Elevator Info" states="{'invisible': Eval('type') != 'elevator'}" colspan="4"/>
+        <label name="elevator_type"/>
+        <field name="elevator_type"/>
+        <label name="administrator"/>
+        <field name="administrator"/>
+        <label name="payload"/>
+        <field name="payload"/>
+        <label name="persons"/>
+        <field name="persons"/>
+        <label name="velocity"/>
+        <field name="velocity"/>
+        <label name="path_length"/>
+        <field name="path_length"/>
+        <label name="stops"/>
+        <field name="stops"/>
+        <label name="registry_number"/>
+        <field name="registry_number"/>
+        <label name="building"/>
+        <field name="building"/>
+        <label name="provenance"/>
+        <field name="provenance"/>
+        <!-- TODO: Add zone here -->
+    </xpath>
+    <xpath expr="/form/notebook" position="inside">
+        <page id="components" string="Components" col="2" states="{'invisible': Eval('type') != 'elevator'}">
+            <group id="doors_limiter" col="1">
+                <group id="doors" col="2">
+                    <separator id="doors" string="Doors" colspan="2"/>
+                    <label name="landing_door_type"/>
+                    <field name="landing_door_type"/>
+                    <label id="measurements" string="Mesurements"/>
+                    <group id="door" col="5">
+                        <field name="door_width"/>
+                        <label id="x" string="x" xalign="0.5" xfill="1" xexpand="1"/>
+                        <field name="door_height"/>
+                        <label id="x" string="x" xalign="0.5" xfill="1" xexpand="1"/>
+                        <field name="doors_number"/>
+                    </group>
+                    <label id="brand" string="Brand"/>
+                    <field name="doors_brand"/>
+                    <label name="hand"/>
+                    <field name="hand"/>
+                    <label name="locks_brand"/>
+                    <field name="locks_brand"/>
+                    <label id="product" string="Product"/>
+                    <field name="doors_product"/>
+                </group>
+                <group id="limiter" col="2">
+                    <separator id="limiter" string="Limiter" colspan="2"/>
+                    <label id="brand" string="Brand"/>
+                    <field name="limiter_brand"/>
+                    <label id="diameter" string="Diameter"/>
+                    <group col="2" id="limiter_diameter">
+                        <field name="limiter_diameter"/>
+                        <label id="mm" string="mm" xalign="0.0" xexpand="1"/>
+                    </group>
+                    <label id="wire" string="Wire"/>
+                    <group col="3" id="limiter_wire">
+                        <field name="limiter_wire_diameter"/>
+                        <label id="x" string="x" xalign="0.5" xfill="1" xexpand="1"/>
+                        <field name="limiter_wire_lenght"/>
+                    </group>
+                </group>
+            </group>
+            <group id="machine" col="2">
+                <separator id="machine" string="Machine" colspan="2"/>
+                <label id="brand" string="Brand"/>
+                <field name="machine_brand"/>
+                <label id="product" string="Product"/>
+                <field name="machine_product"/>
+                <label name="power"/>
+                <group col="2" id="power">
+                    <field name="power" xexpand="0"/>
+                    <label id="kw" string="kw" xalign="0.0" xexpand="1"/>
+                </group>
+                <label name="pulley"/>
+                <group col="2" id="pulley">
+                    <field name="pulley" xexpand="0"/>
+                    <label id="mm" string="mm" xalign="0.0" xexpand="1"/>
+                </group>
+                <label name="rpm_motor"/>
+                <field name="rpm_motor"/>
+                <label id="piston" string="Piston"/>
+                <field name="piston_diameter"/>
+                <label name="hose_type"/>
+                <field name="hose_type"/>
+                <label id="hose" string="Hose"/>
+                <group id="hose_group" col="3">
+                    <field name="hose_diameter"/>
+                    <label id="x" string="x" xalign="0.5" xfill="1" xexpand="1"/>
+                    <field name="hose_lenght"/>
+                </group>
+                <label name="situation"/>
+                <field name="situation"/>
+                <label name="suspension_type"/>
+                <field name="suspension_type"/>
+                <label id="wires" string="Wires"/>
+                <group id="wires" col="5">
+                    <field name="wire_number"/>
+                    <label id="x" string="x" xalign="0.5" xfill="1" xexpand="1"/>
+                    <field name="wire_diameter"/>
+                    <label id="x" string="x" xalign="0.5" xfill="1" xexpand="1"/>
+                    <field name="wire_lenght"/>
+                </group>
+            </group>
+            <group id="guides_fields" colspan="2" col="4">
+                <label name="cabin_guides"/>
+                <field name="cabin_guides"/>
+                <label name="parachute_brand"/>
+                <field name="parachute_brand"/>
+                <label name="counterweight_guides"/>
+                <field name="counterweight_guides"/>
+                <label name="counterweight_product"/>
+                <field name="counterweight_product"/>
+                <label name="parachute_counterweight"/>
+                <field name="parachute_counterweight"/>
+            </group>
+            <group id="cabin" col="2">
+                <separator id="cabin" string="Cabin" colspan="2"/>
+                <label id="measurements" string="Mesurements"/>
+                <group id="cabin_measurements" col="4">
+                    <field name="cabin_depth"/>
+                    <label id="x" string="x" xalign="0.5" xfill="1" xexpand="1"/>
+                    <field name="cabin_width"/>
+                    <label id="mm" string="mm" xalign="0.0" xexpand="1"/>
+                </group>
+                <label id="accesses" string="Accesses"/>
+                <field name="cabin_accesses"/>
+                <label id="doors" string="Doors"/>
+                <field name="cabin_doors"/>
+                <label name="phone"/>
+                <field name="phone"/>
+                <label id="doors_module" string="Doors Module"/>
+                <field name="cabin_doors_module"/>
+                <label id="ligths" string="Ligths"/>
+                <group id="ligth" col="3">
+                    <field name="light_height"/>
+                    <label id="x" string="x" xalign="0.5" xfill="1" xexpand="1"/>
+                    <field name="light_width"/>
+                </group>
+                <label name="ground_finish"/>
+                <field name="ground_finish"/>
+                <label name="roof_finish"/>
+                <field name="roof_finish"/>
+                <label name="lateral_finish"/>
+                <field name="lateral_finish"/>
+            </group>
+            <group id="voltages_buttons" col="1">
+                <group id="maneveur" col="2">
+                    <separator id="maneveur" string="Maneveur" colspan="2"/>
+                    <label id="manufacturer" string="Manufacturer"/>
+                    <field name="manevuer_manufacturer"/>
+                    <label id="type" string="Type"/>
+                    <field name="maneveur_type"/>
+                </group>
+                <group id="voltages" col="2">
+                    <separator id="voltages" string="Voltages" colspan="2"/>
+                    <label name="input_voltage"/>
+                    <field name="input_voltage"/>
+                    <label name="brake_voltage"/>
+                    <field name="brake_voltage"/>
+                    <label name="contactor_voltage"/>
+                    <field name="contactor_voltage"/>
+                    <label name="lleva_voltage"/>
+                    <field name="lleva_voltage"/>
+                    <label name="ligths_voltage"/>
+                    <field name="ligths_voltage"/>
+                </group>
+                <group id="buttons" col="2">
+                    <separator id="buttons" string="Buttons" colspan="2"/>
+                    <label id="brand" string="Brand"/>
+                    <field name="buttons_brand"/>
+                    <label id="product" string="Product"/>
+                    <field name="buttons_product"/>
+                </group>
+            </group>
+            <group id="displays" col="2">
+                <separator id="displays" string="Displays" colspan="2"/>
+                <label id="brand" string="Brand"/>
+                <field name="displays_brand"/>
+                <label id="product" string="Product"/>
+                <field name="displays_product"/>
+            </group>
+            <group id="conductors" col="2">
+                <separator id="conductors" string="Hose Maneveur" colspan="2"/>
+                <label id="conductors" string="Conductors"/>
+                <group id="conductors" col="3">
+                    <field name="number_of_conductors"/>
+                    <label id="x" string="x" xalign="0.5" xfill="1" xexpand="1"/>
+                    <field name="conductors_length"/>
+                </group>
+                <label name="conductors_connection"/>
+                <field name="conductors_connection"/>
+            </group>
+            <group id="buttons_numeration" col="2">
+                <separator id="buttons_numeration" string="Buttons Numeration"
+                    colspan="2"/>
+                <label id="cabin" string="Cabin"/>
+                <field name="cabin_buttons"/>
+                <label id="main_floor" string="Main Floor"/>
+                <field name="main_buttons"/>
+                <label id="other_floor" string="Other Floor"/>
+                <field name="other_buttons"/>
+            </group>
+            <group id="bidirectional" col="2">
+                <separator id="bidirectional" string="Bidirectional" colspan="2"/>
+                <label id="brand" string="Brand"/>
+                <field name="bidirectional_brand"/>
+                <label id="product" string="Product"/>
+                <field name="bidirectional_product"/>
+                <label name="gsm"/>
+                <field name="gsm"/>
+            </group>
+            <group id="contactor" col="2">
+                <separator id="contactor" string="Contactors" colspan="2"/>
+                <label id="type" string="Type"/>
+                <field name="contactor_types"/>
+            </group>
+            <group id="other" col="6" colspan="6">
+                <separator id="other" string="Other" colspan="6"/>
+                <label name="manufacturer"/>
+                <field name="manufacturer"/>
+                <label name="conservative"/>
+                <field name="conservative"/>
+                <label name="general_state"/>
+                <field name="general_state"/>
+                <label name="reformed"/>
+                <field name="reformed"/>
+                <label name="in_normative"/>
+                <field name="in_normative"/>
+            </group>
+
+            <group id="cabin_chassis" col="2">
+                <separator id="cabin_chasis" string="Cabin Chassis" colspan="2"/>
+                <label id="brand" string="Brand"/>
+                <field name="cabin_chassis_brand"/>
+                <label id="product" string="Product"/>
+                <field name="cabin_chassis_product"/>
+                <label name="cilinder_brand"/>
+                <field name="cilinder_brand"/>
+            </group>
+            <group id="door_motor" col="2">
+                <separator id="door_motor" string="Door Motor" colspan="2"/>
+                <label id="brand" string="Brand"/>
+                <field name="door_motor_brand"/>
+                <label id="product" string="Product"/>
+                <field name="door_motor_product"/>
+                <label name="deflection_pulley"/>
+                <field name="deflection_pulley"/>
+            </group>
+            <group id="brands" col="6" colspan="2">
+                <separator id="brands" string="Brands" colspan="6"/>
+                <label name="material_brand"/>
+                <field name="material_brand"/>
+                <label name="brake_brand"/>
+                <field name="brake_brand"/>
+            </group>
+        </page>
+        <page name="notes">
+            <field name="notes"/>
+        </page>
+    </xpath>
+</data>

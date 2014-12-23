@@ -15,5 +15,5 @@ def register():
         Suspension,
         DoorType,
         Guide,
-        Elevator,
+        Asset,
         module='asset_elevator', type_='model')

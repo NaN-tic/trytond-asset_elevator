@@ -81,6 +81,7 @@
             <field name="name">Selective Upload-Download</field>
         </record>
 
+        <!-- asset.suspension.type-->
         <record model="asset.suspension.type" id="telescopic_suspension">
             <field name="name">Telescopic</field>
         </record>
@@ -91,6 +92,17 @@
 
         <record model="asset.suspension.type" id="2_1_suspension">
             <field name="name">2:1</field>
+        </record>
+
+        <!-- asset.situation-->
+        <record model="asset.situation" id="upper_situation">
+            <field name="name">Upper</field>
+        </record>
+        <record model="asset.situation" id="lateral_situation">
+            <field name="name">Lateral</field>
+        </record>
+        <record model="asset.situation" id="lower_situation">
+            <field name="name">Lower</field>
         </record>
     </data>
 </tryton>
