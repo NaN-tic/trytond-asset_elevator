@@ -6,10 +6,6 @@ msgctxt "field:asset,active:"
 msgid "Active"
 msgstr "Activo"
 
-msgctxt "field:asset,administrator:"
-msgid "Administrator"
-msgstr "Administrador"
-
 msgctxt "field:asset,bidirectional_brand:"
 msgid "Bidirectional brand"
 msgstr "Marca bidireccional"

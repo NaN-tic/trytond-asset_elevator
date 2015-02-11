@@ -113,8 +113,6 @@ _DEPENDS = ['type']
 
 class Asset:
     __name__ = 'asset'
-    administrator = fields.Many2One('party.party', 'Administrator',
-        states=_STATES, depends=_DEPENDS)
     registry_number = fields.Char('R.A.E.', help='Elevator machine number',
         states=_STATES, depends=_DEPENDS)
     material_brand = fields.Many2One('product.brand', 'Material brand',

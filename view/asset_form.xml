@@ -6,8 +6,6 @@
         <separator id="elevator" string="Elevator Info" states="{'invisible': Eval('type') != 'elevator'}" colspan="4"/>
         <label name="elevator_type"/>
         <field name="elevator_type"/>
-        <label name="administrator"/>
-        <field name="administrator"/>
         <label name="payload"/>
         <field name="payload"/>
         <label name="persons"/>
@@ -24,7 +22,6 @@
         <field name="building"/>
         <label name="provenance"/>
         <field name="provenance"/>
-        <!-- TODO: Add zone here -->
     </xpath>
     <xpath expr="/form/notebook" position="inside">
         <page id="components" string="Components" col="2" states="{'invisible': Eval('type') != 'elevator'}">

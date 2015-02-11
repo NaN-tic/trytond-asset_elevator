@@ -1,3 +1,4 @@
+* Remove administrator field
 * Allow to modify data loaded from xml files
 * Unify asset and elevator
 * Add unique constraint on asset
