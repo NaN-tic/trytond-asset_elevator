@@ -4,24 +4,28 @@
 <data>
     <xpath expr="/form/notebook" position="before">
         <separator id="elevator" string="Elevator Info" states="{'invisible': Eval('type') != 'elevator'}" colspan="4"/>
-        <label name="elevator_type"/>
-        <field name="elevator_type"/>
-        <label name="payload"/>
-        <field name="payload"/>
-        <label name="persons"/>
-        <field name="persons"/>
-        <label name="velocity"/>
-        <field name="velocity"/>
-        <label name="path_length"/>
-        <field name="path_length"/>
-        <label name="stops"/>
-        <field name="stops"/>
-        <label name="registry_number"/>
-        <field name="registry_number"/>
-        <label name="building"/>
-        <field name="building"/>
-        <label name="provenance"/>
-        <field name="provenance"/>
+        <group col="6" colspan="4">
+            <label name="elevator_type"/>
+            <field name="elevator_type"/>
+            <label name="payload"/>
+            <field name="payload"/>
+            <label name="persons"/>
+            <field name="persons"/>
+            <label name="velocity"/>
+            <field name="velocity"/>
+            <label name="path_length"/>
+            <field name="path_length"/>
+            <label name="stops"/>
+            <field name="stops"/>
+            <label name="registry_number"/>
+            <field name="registry_number"/>
+            <label name="building"/>
+            <field name="building"/>
+            <label name="provenance"/>
+            <field name="provenance"/>
+            <label name="phone"/>
+            <field name="phone"/>
+        </group>
     </xpath>
     <xpath expr="/form/notebook" position="inside">
         <page id="components" string="Components" col="2" states="{'invisible': Eval('type') != 'elevator'}">
@@ -130,8 +134,6 @@
                 <field name="cabin_accesses"/>
                 <label id="doors" string="Doors"/>
                 <field name="cabin_doors"/>
-                <label name="phone"/>
-                <field name="phone"/>
                 <label id="doors_module" string="Doors Module"/>
                 <field name="cabin_doors_module"/>
                 <label id="ligths" string="Ligths"/>
