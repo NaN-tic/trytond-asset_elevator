@@ -4,7 +4,7 @@
 <data>
     <xpath expr="/form/notebook" position="before">
         <separator id="elevator" string="Elevator Info" states="{'invisible': Eval('type') != 'elevator'}" colspan="4"/>
-        <group col="6" colspan="4">
+        <group col="6" colspan="4" id="elevator_info">
             <label name="elevator_type"/>
             <field name="elevator_type"/>
             <label name="payload"/>
