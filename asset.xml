@@ -88,8 +88,8 @@
         <record model="ir.action.act_window" id="act_asset_elevators">
             <field name="name">Elevators</field>
             <field name="res_model">asset</field>
-            <field name="domain">[('type', '=', 'elevator')]</field>
-            <field name="context">{'type': 'elevator'}</field>
+            <field name="domain" eval="[('type', '=', 'elevator')]" pyson="1"/>
+            <field name="context" eval="{'type': 'elevator'}" pyson="1"/>
         </record>
         <record model="ir.action.act_window.view" id="act_asset_elevator_view1">
             <field name="sequence" eval="10"/>
