@@ -3,7 +3,7 @@
      copyright notices and license terms. -->
 <data>
     <xpath expr="/form/notebook" position="before">
-        <separator id="elevator" string="Elevator Info" states="{'invisible': Eval('type') != 'elevator'}" colspan="4"/>
+        <separator id="elevator" string="Elevator Info" colspan="4"/>
         <group col="6" colspan="4" id="elevator_info">
             <label name="elevator_type"/>
             <field name="elevator_type"/>
@@ -28,7 +28,7 @@
         </group>
     </xpath>
     <xpath expr="/form/notebook" position="inside">
-        <page id="components" string="Components" col="2" states="{'invisible': Eval('type') != 'elevator'}">
+        <page id="components" string="Components" col="2">
             <group id="doors_limiter" col="1">
                 <group id="doors" col="2">
                     <separator id="doors" string="Doors" colspan="2"/>

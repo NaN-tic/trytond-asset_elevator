@@ -340,3 +340,16 @@ class Asset:
     @staticmethod
     def default_conductors_connection():
         return ''
+
+    @classmethod
+    def view_attributes(cls):
+        res = super(Asset, cls).view_attributes()
+        res += [
+            ('/form/separator[@id="elevator"]', 'states', {
+                    'invisible': Eval('type') != 'elevator',
+                    }),
+            ('/form/notebook/page[@id="components"]', 'states', {
+                    'invisible': Eval('type') != 'elevator',
+                    }),
+            ]
+        return res
