@@ -7,8 +7,6 @@ from trytond.pyson import Eval
 __all__ = ['Building', 'ElevatorType', 'Finish', 'ManeveurType',
     'HoseType', 'Situation', 'Suspension', 'DoorType', 'Guide', 'Asset']
 
-__metaclass__ = PoolMeta
-
 
 class Building(ModelSQL, ModelView):
     'Building'
@@ -113,6 +111,7 @@ _DEPENDS = ['type']
 
 class Asset:
     __name__ = 'asset'
+    __metaclass__ = PoolMeta
     registry_number = fields.Char('R.A.E.', help='Elevator machine number',
         states=_STATES, depends=_DEPENDS)
     material_brand = fields.Many2One('product.brand', 'Material brand',
