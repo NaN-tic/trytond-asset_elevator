@@ -1,90 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tryton>
     <data>
+        <!-- asset -->
         <record model="ir.ui.view" id="asset_view_form">
             <field name="model">asset</field>
-            <field name="type">form</field>
+            <field name="type" eval="None"/>
             <field name="inherit" ref="asset.asset_view_form"/>
             <field name="name">asset_form</field>
         </record>
-        <record model="ir.ui.view" id="asset_building_view_form">
-            <field name="model">asset.building</field>
-            <field name="type">form</field>
-            <field name="name">asset_building_form</field>
-        </record>
-        <record model="ir.ui.view" id="asset_building_view_list">
-            <field name="model">asset.building</field>
-            <field name="type">tree</field>
-            <field name="name">asset_building_list</field>
-        </record>
-        <record model="ir.action.act_window" id="act_asset_building">
-            <field name="name">Buildings</field>
-            <field name="res_model">asset.building</field>
-        </record>
-        <record model="ir.action.act_window.view" id="act_asset_building_view1">
-            <field name="sequence" eval="10"/>
-            <field name="view" ref="asset_building_view_list"/>
-            <field name="act_window" ref="act_asset_building"/>
-        </record>
-        <record model="ir.action.act_window.view" id="act_asset_building_view2">
-            <field name="sequence" eval="20"/>
-            <field name="view" ref="asset_building_view_form"/>
-            <field name="act_window" ref="act_asset_building"/>
-        </record>
-        <record model="ir.model.access" id="access_asset_building">
-            <field name="model" search="[('model', '=', 'asset.building')]"/>
-            <field name="perm_read" eval="True"/>
-            <field name="perm_write" eval="False"/>
-            <field name="perm_create" eval="False"/>
-            <field name="perm_delete" eval="False"/>
-        </record>
-        <record model="ir.model.access" id="access_asset_building_admin">
-            <field name="model" search="[('model', '=', 'asset.building')]"/>
-            <field name="group" ref="asset.group_asset_admin"/>
-            <field name="perm_read" eval="True"/>
-            <field name="perm_write" eval="True"/>
-            <field name="perm_create" eval="True"/>
-            <field name="perm_delete" eval="True"/>
-        </record>
-        <record model="ir.ui.view" id="asset_door_type_view_form">
-            <field name="model">asset.door.type</field>
-            <field name="type">form</field>
-            <field name="name">asset_door_type_form</field>
-        </record>
-        <record model="ir.ui.view" id="asset_door_type_view_list">
-            <field name="model">asset.door.type</field>
-            <field name="type">tree</field>
-            <field name="name">asset_door_type_list</field>
-        </record>
-        <record model="ir.action.act_window" id="act_asset_door_type">
-            <field name="name">Door Types</field>
-            <field name="res_model">asset.door.type</field>
-        </record>
-        <record model="ir.action.act_window.view" id="act_asset_door_type_view1">
-            <field name="sequence" eval="10"/>
-            <field name="view" ref="asset_door_type_view_list"/>
-            <field name="act_window" ref="act_asset_door_type"/>
-        </record>
-        <record model="ir.action.act_window.view" id="act_asset_door_type_view2">
-            <field name="sequence" eval="20"/>
-            <field name="view" ref="asset_door_type_view_form"/>
-            <field name="act_window" ref="act_asset_door_type"/>
-        </record>
-        <record model="ir.model.access" id="access_asset_door_type">
-            <field name="model" search="[('model', '=', 'asset.door.type')]"/>
-            <field name="perm_read" eval="True"/>
-            <field name="perm_write" eval="False"/>
-            <field name="perm_create" eval="False"/>
-            <field name="perm_delete" eval="False"/>
-        </record>
-        <record model="ir.model.access" id="access_asset_door_type_admin">
-            <field name="model" search="[('model', '=', 'asset.door.type')]"/>
-            <field name="group" ref="asset.group_asset_admin"/>
-            <field name="perm_read" eval="True"/>
-            <field name="perm_write" eval="True"/>
-            <field name="perm_create" eval="True"/>
-            <field name="perm_delete" eval="True"/>
-        </record>
+
         <record model="ir.action.act_window" id="act_asset_elevators">
             <field name="name">Elevators</field>
             <field name="res_model">asset</field>
@@ -101,16 +25,110 @@
             <field name="view" ref="asset.asset_view_form"/>
             <field name="act_window" ref="act_asset_elevators"/>
         </record>
+
+        <!-- asset.building -->
+        <record model="ir.ui.view" id="asset_building_view_form">
+            <field name="model">asset.building</field>
+            <field name="type">form</field>
+            <field name="name">asset_building_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="asset_building_view_list">
+            <field name="model">asset.building</field>
+            <field name="type">tree</field>
+            <field name="name">asset_building_list</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_asset_building">
+            <field name="name">Buildings</field>
+            <field name="res_model">asset.building</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_asset_building_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="asset_building_view_list"/>
+            <field name="act_window" ref="act_asset_building"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_asset_building_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="asset_building_view_form"/>
+            <field name="act_window" ref="act_asset_building"/>
+        </record>
+
+        <record model="ir.model.access" id="access_asset_building">
+            <field name="model" search="[('model', '=', 'asset.building')]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.model.access" id="access_asset_building_admin">
+            <field name="model" search="[('model', '=', 'asset.building')]"/>
+            <field name="group" ref="asset.group_asset_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <!-- asset.door.type -->
+        <record model="ir.ui.view" id="asset_door_type_view_form">
+            <field name="model">asset.door.type</field>
+            <field name="type">form</field>
+            <field name="name">asset_door_type_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="asset_door_type_view_list">
+            <field name="model">asset.door.type</field>
+            <field name="type">tree</field>
+            <field name="name">asset_door_type_list</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_asset_door_type">
+            <field name="name">Door Types</field>
+            <field name="res_model">asset.door.type</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_asset_door_type_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="asset_door_type_view_list"/>
+            <field name="act_window" ref="act_asset_door_type"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_asset_door_type_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="asset_door_type_view_form"/>
+            <field name="act_window" ref="act_asset_door_type"/>
+        </record>
+
+        <record model="ir.model.access" id="access_asset_door_type">
+            <field name="model" search="[('model', '=', 'asset.door.type')]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.model.access" id="access_asset_door_type_admin">
+            <field name="model" search="[('model', '=', 'asset.door.type')]"/>
+            <field name="group" ref="asset.group_asset_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <!-- asset.elevator.type -->
         <record model="ir.ui.view" id="asset_elevator_type_view_form">
             <field name="model">asset.elevator.type</field>
             <field name="type">form</field>
             <field name="name">asset_elevator_type_form</field>
         </record>
+
         <record model="ir.ui.view" id="asset_elevator_type_view_list">
             <field name="model">asset.elevator.type</field>
             <field name="type">tree</field>
             <field name="name">asset_elevator_type_list</field>
         </record>
+
         <record model="ir.action.act_window" id="act_asset_elevator_type">
             <field name="name">Elevator Types</field>
             <field name="res_model">asset.elevator.type</field>
@@ -125,6 +143,7 @@
             <field name="view" ref="asset_elevator_type_view_form"/>
             <field name="act_window" ref="act_asset_elevator_type"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_elevator_type">
             <field name="model" search="[('model', '=', 'asset.elevator.type')]"/>
             <field name="perm_read" eval="True"/>
@@ -132,6 +151,7 @@
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_elevator_type_admin">
             <field name="model" search="[('model', '=', 'asset.elevator.type')]"/>
             <field name="group" ref="asset.group_asset_admin"/>
@@ -140,16 +160,20 @@
             <field name="perm_create" eval="True"/>
             <field name="perm_delete" eval="True"/>
         </record>
+
+        <!-- asset.finish -->
         <record model="ir.ui.view" id="asset_finish_view_form">
             <field name="model">asset.finish</field>
             <field name="type">form</field>
             <field name="name">asset_finish_form</field>
         </record>
+
         <record model="ir.ui.view" id="asset_finish_view_list">
             <field name="model">asset.finish</field>
             <field name="type">tree</field>
             <field name="name">asset_finish_list</field>
         </record>
+
         <record model="ir.action.act_window" id="act_asset_finish">
             <field name="name">Finish</field>
             <field name="res_model">asset.finish</field>
@@ -164,6 +188,7 @@
             <field name="view" ref="asset_finish_view_form"/>
             <field name="act_window" ref="act_asset_finish"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_finish">
             <field name="model" search="[('model', '=', 'asset.finish')]"/>
             <field name="perm_read" eval="True"/>
@@ -171,6 +196,7 @@
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_finish_admin">
             <field name="model" search="[('model', '=', 'asset.finish')]"/>
             <field name="group" ref="asset.group_asset_admin"/>
@@ -179,6 +205,8 @@
             <field name="perm_create" eval="True"/>
             <field name="perm_delete" eval="True"/>
         </record>
+
+        <!-- asset.guide -->
         <record model="ir.ui.view" id="asset_guide_view_form">
             <field name="model">asset.guide</field>
             <field name="type">form</field>
@@ -189,6 +217,7 @@
             <field name="type">tree</field>
             <field name="name">asset_guide_list</field>
         </record>
+
         <record model="ir.action.act_window" id="act_asset_guide">
             <field name="name">Guides</field>
             <field name="res_model">asset.guide</field>
@@ -203,6 +232,7 @@
             <field name="view" ref="asset_guide_view_form"/>
             <field name="act_window" ref="act_asset_guide"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_guide">
             <field name="model" search="[('model', '=', 'asset.guide')]"/>
             <field name="perm_read" eval="True"/>
@@ -210,6 +240,7 @@
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_guide_admin">
             <field name="model" search="[('model', '=', 'asset.guide')]"/>
             <field name="group" ref="asset.group_asset_admin"/>
@@ -218,16 +249,20 @@
             <field name="perm_create" eval="True"/>
             <field name="perm_delete" eval="True"/>
         </record>
+
+        <!-- asset.hose.type -->
         <record model="ir.ui.view" id="asset_hose_type_view_form">
             <field name="model">asset.hose.type</field>
             <field name="type">form</field>
             <field name="name">asset_hose_type_form</field>
         </record>
+
         <record model="ir.ui.view" id="asset_hose_type_view_list">
             <field name="model">asset.hose.type</field>
             <field name="type">tree</field>
             <field name="name">asset_hose_type_list</field>
         </record>
+
         <record model="ir.action.act_window" id="act_asset_hose_type">
             <field name="name">Hose Type</field>
             <field name="res_model">asset.hose.type</field>
@@ -242,6 +277,7 @@
             <field name="view" ref="asset_hose_type_view_form"/>
             <field name="act_window" ref="act_asset_hose_type"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_hose_type">
             <field name="model" search="[('model', '=', 'asset.hose.type')]"/>
             <field name="perm_read" eval="True"/>
@@ -249,6 +285,7 @@
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_hose_type_admin">
             <field name="model" search="[('model', '=', 'asset.hose.type')]"/>
             <field name="group" ref="asset.group_asset_admin"/>
@@ -257,16 +294,20 @@
             <field name="perm_create" eval="True"/>
             <field name="perm_delete" eval="True"/>
         </record>
+
+        <!-- asset.maneveur.type -->
         <record model="ir.ui.view" id="asset_maneveur_type_view_form">
             <field name="model">asset.maneveur.type</field>
             <field name="type">form</field>
             <field name="name">asset_maneveur_type_form</field>
         </record>
+
         <record model="ir.ui.view" id="asset_maneveur_type_view_list">
             <field name="model">asset.maneveur.type</field>
             <field name="type">tree</field>
             <field name="name">asset_maneveur_type_list</field>
         </record>
+
         <record model="ir.action.act_window" id="act_asset_maneveur_type">
             <field name="name">Maneveur Type</field>
             <field name="res_model">asset.maneveur.type</field>
@@ -281,6 +322,7 @@
             <field name="view" ref="asset_maneveur_type_view_form"/>
             <field name="act_window" ref="act_asset_maneveur_type"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_maneveur_type">
             <field name="model" search="[('model', '=', 'asset.maneveur.type')]"/>
             <field name="perm_read" eval="True"/>
@@ -288,6 +330,7 @@
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_maneveur_type_admin">
             <field name="model" search="[('model', '=', 'asset.maneveur.type')]"/>
             <field name="group" ref="asset.group_asset_admin"/>
@@ -296,16 +339,20 @@
             <field name="perm_create" eval="True"/>
             <field name="perm_delete" eval="True"/>
         </record>
+
+        <!-- asset.situation -->
         <record model="ir.ui.view" id="asset_situation_view_form">
             <field name="model">asset.situation</field>
             <field name="type">form</field>
             <field name="name">asset_situation_form</field>
         </record>
+
         <record model="ir.ui.view" id="asset_situation_view_list">
             <field name="model">asset.situation</field>
             <field name="type">tree</field>
             <field name="name">asset_situation_list</field>
         </record>
+
         <record model="ir.action.act_window" id="act_asset_situation">
             <field name="name">Situations</field>
             <field name="res_model">asset.situation</field>
@@ -320,6 +367,7 @@
             <field name="view" ref="asset_situation_view_form"/>
             <field name="act_window" ref="act_asset_situation"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_situation">
             <field name="model" search="[('model', '=', 'asset.situation')]"/>
             <field name="perm_read" eval="True"/>
@@ -327,6 +375,7 @@
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_situation_admin">
             <field name="model" search="[('model', '=', 'asset.situation')]"/>
             <field name="group" ref="asset.group_asset_admin"/>
@@ -335,16 +384,20 @@
             <field name="perm_create" eval="True"/>
             <field name="perm_delete" eval="True"/>
         </record>
+
+        <!-- asset.suspension.type -->
         <record model="ir.ui.view" id="asset_suspension_type_view_form">
             <field name="model">asset.suspension.type</field>
             <field name="type">form</field>
             <field name="name">asset_suspension_type_form</field>
         </record>
+
         <record model="ir.ui.view" id="asset_suspension_type_view_list">
             <field name="model">asset.suspension.type</field>
             <field name="type">tree</field>
             <field name="name">asset_suspension_type_list</field>
         </record>
+
         <record model="ir.action.act_window" id="act_asset_suspension_type">
             <field name="name">Suspension Types</field>
             <field name="res_model">asset.suspension.type</field>
@@ -359,6 +412,7 @@
             <field name="view" ref="asset_suspension_type_view_form"/>
             <field name="act_window" ref="act_asset_suspension_type"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_suspension_type">
             <field name="model" search="[('model', '=', 'asset.suspension.type')]"/>
             <field name="perm_read" eval="True"/>
@@ -366,6 +420,7 @@
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
+
         <record model="ir.model.access" id="access_asset_suspension_type_admin">
             <field name="model" search="[('model', '=', 'asset.suspension.type')]"/>
             <field name="group" ref="asset.group_asset_admin"/>
@@ -374,6 +429,7 @@
             <field name="perm_create" eval="True"/>
             <field name="perm_delete" eval="True"/>
         </record>
+
         <!-- Menus -->
         <menuitem id="menu_asset_elevator" parent="asset.menu_configuration"
             sequence="20" name="Elevator"/>
